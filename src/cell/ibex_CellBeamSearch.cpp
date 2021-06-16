@@ -9,6 +9,8 @@
 //============================================================================
 
 #include "ibex_CellBeamSearch.h"
+#include <random>
+#include <iostream>
 
 using namespace std;
 
@@ -59,16 +61,22 @@ double CellBeamSearch::cell_cost(const Cell& cell) const {
 
 // returns the cell to handled
 Cell* CellBeamSearch::pop() {
-	if (! (currentbuffer.empty()) )
+	cout << "Hola " << endl;
+	int randomVal = rand() % 2;
+	
+	if(randomVal){
+		cout << "Se usa currentbuffer por random" << endl;
+	}
+
+	if (randomVal && ! (currentbuffer.empty()) )
 		return currentbuffer.pop();
 	else if (! (futurebuffer.empty()) ) {
 		Cell * c= futurebuffer.pop();
 		move_buffers();
 		return c;
 	}
-	else return CellHeap::pop();
+	return CellHeap::pop();
 }
-
 // emptying the futurebuffer : buffersize-1 cells are put into
 // the currentbuffer , the remaining into the global heap
 void CellBeamSearch::move_buffers() {
