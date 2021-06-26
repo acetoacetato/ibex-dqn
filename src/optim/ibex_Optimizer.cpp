@@ -478,6 +478,27 @@ namespace ibex
 		cov->data->_optim_nb_cells = data.nb_cells();
 	}
 
+	void forma_estado(Cell *c, std::vector<double> &v, ibex::LoupFinder &loup_finder, ibex::IntervalVector &loup_point, double &uplo, int n)
+	{
+		double ub, lb, UB, depth;
+		pair<IntervalVector, double> p = loup_finder.find(c->box, loup_point, POS_INFINITY, c->prop);
+
+		lb = c->box[n].ub();
+		ub = p.second;
+		UB = uplo;
+		depth = c->depth;
+
+		cout << "lb:" << lb << endl;
+		cout << "ub:" << ub << endl;
+		cout << "UB: " << UB << endl;
+		cout << "depth: " << depth << endl;
+
+		v.push_back(lb);
+		v.push_back(ub);
+		v.push_back(UB);
+		v.push_back(depth);
+	}
+
 	Optimizer::Status Optimizer::optimize()
 	{
 		Timer timer;
@@ -512,6 +533,10 @@ namespace ibex
 
 		////////////////////////////////////////////////////////////
 
+		Cell *past_cell = nullptr;
+		std::vector<double> past_state;
+		std::vector<double> future_state;
+		double past_uplo = NEG_INFINITY;
 		try
 		{
 			while (!buffer.empty())
@@ -521,6 +546,18 @@ namespace ibex
 				// for double heap , choose randomly the buffer : top  has to be called before pop
 				//FIXME: Se selecciona mediante la política del agente
 				Cell *c = buffer.top();
+
+				//FIXME: Acá se obtienen los datos actuales.
+				//			En la primera acción no hay que tomar ninguna desición,
+				//			por lo que se guardará la desición pasada para eliminarla luego
+
+				if (past_cell != nullptr)
+				{
+					cout << "pasado: " << endl;
+					past_state.clear();
+					forma_estado(past_cell, past_state, loup_finder, loup_point, uplo, n);
+				}
+
 				if (trace >= 2)
 					cout << " current box " << c->box << endl;
 
@@ -530,12 +567,12 @@ namespace ibex
 					//FIXME: Acá teóricamente se elimina la última caja, por lo que se debería obtener el future state
 					pair<Cell *, Cell *> new_cells = bsc.bisect(*c);
 					buffer.pop();
-					delete c; // deletes the cell.
 
-					//FIXME: ESTADO FUTURO. Si es nulo es porque es un estado terminal.
-					Cell *future_cell = nullptr;
-					if (!buffer.empty())
-						future_cell = buffer.top();
+					// Se eliminará la celda anterior
+					////delete c; // deletes the cell.
+					delete past_cell;
+					past_cell = c;
+					///////////////////////
 
 					nb_cells += 2; // counting the cells handled ( in previous versions nb_cells was the number of cells put into the buffer after being handled)
 
@@ -568,6 +605,7 @@ namespace ibex
 							break;
 						}
 					}
+					past_uplo = uplo;
 					update_uplo();
 
 					if (!anticipated_upper_bounding) // useless to check precision on objective if 'true'
@@ -582,10 +620,30 @@ namespace ibex
 				{
 					update_uplo_of_epsboxes((c->box)[goal_var].lb());
 					buffer.pop();
-					delete c;	   // deletes the cell.
+					// FIXME: Acá se reemplaza por la eliminación del nodo futuro
+					///delete c;	   // deletes the cell.
+					delete past_cell;
+					past_cell = c;
+					///////////////
+
+					past_uplo = uplo;
 					update_uplo(); // the heap has changed -> recalculate the uplo (eg: if not in best-first search)
 								   //FIXME: Acá se reemplaza la caja extraída
 				}
+
+				//FIXME: ESTADO FUTURO. Si es nulo es porque es un estado terminal.
+				Cell *future_cell = nullptr;
+				if (!buffer.empty())
+				{
+					future_cell = buffer.top();
+
+					cout << "Futuro: " << endl;
+					future_state.clear();
+					forma_estado(future_cell, future_state, loup_finder, loup_point, uplo, n);
+				}
+
+				// Recolecta experiencia
+				agent::recolectaExperiencia(past_state, 0, agent::reward(past_uplo, uplo), future_state, 0);
 			}
 
 			timer.stop();

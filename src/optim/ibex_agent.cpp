@@ -1,5 +1,5 @@
 #include "ibex_agent.h"
-
+#include "ibex.h"
 namespace agent
 {
     using namespace std;
@@ -41,6 +41,17 @@ namespace agent
         PyObject *pIns = PyObject_CallObject(pConstruct, funcArgs);
 
         return pIns;
+    }
+
+    // ub, lb, UB, depth : del estado inicial
+    // a: accion tomada (id o pos)
+    // r(estado_inicial, accion): resultado función de recompensa
+    // ub, lb, UB, depth: del estado futuro
+    // done: si estado futuro es null
+    int recolectaExperiencia(std::vector<double> &is, int a, double r, std::vector<double> &fs, int done)
+    {
+        cout << "Esto al menos ingresa" << endl;
+        return 0;
     }
 
     void *llamaFuncion(PyObject *agente, const char nombreFuncion[], int nargs, ...)

@@ -16,6 +16,7 @@ namespace agent
 	PyObject *inicializaAgente(PyObject *modulo);
 	void *llamaFuncion(PyObject *agente, const char nombreFuncion[], int nargs, ...);
 	void *predice(void *datos);
+	int recolectaExperiencia(std::vector<double> &is, int a, double r, std::vector<double> &fs, int done);
 	double punishment(int iterActual, int iterEsperada);
 	double reward(double UB, double ub);
 	double calculaRecompensa(double UB, double ub, int iterActual, int iterEsperada);
