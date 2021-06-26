@@ -74,13 +74,13 @@ def configure (conf):
 	if conf.options.DEBUG:
 		Logs.info("Enabling debug mode")
 		# note: -Wno-int-in-bool-context for Gaol (but unknown option by clang...)
-		flags = "-std=c++11 -O0 -g -pg -Wall -Wno-int-in-bool-context"
+		flags = "-std=c++11  -lpython3.6 -O0 -g -pg -Wall -Wno-int-in-bool-context"
 		flags += " -fmessage-length=0"
 		conf.define ("DEBUG", 1)
 		conf.env.DEBUG = True
 	else:
 		# note: -Wno-int-in-bool-context for Gaol
-		flags = "-std=c++11 -O3 -Wno-deprecated -Wno-unknown-pragmas -Wno-unused-variable -Wno-unused-function"
+		flags = "-std=c++11 -lpython3.6 -O3 -Wno-deprecated -Wno-unknown-pragmas -Wno-unused-variable -Wno-unused-function"
 		conf.define ("NDEBUG", 1)
 		conf.env.DEBUG = False
 	for f in flags.split():
@@ -123,6 +123,9 @@ def configure (conf):
 		# compiled as static lib with -fPIC and are contained in libibex)
 		if not conf.env.ENABLE_SHARED:
 			conf.env.append_unique ("LIBPATH_IBEX_DEPS", conf.env.LIBDIR_3RD)
+	conf.env.append_unique("LIBPATH_IBEX_SEPS", "/usr/lib/python3.6/config-3.6m-x86_64-linux-gnu")
+	conf.env.append_unique("INCLUDES_IBEX_DEPS", "/usr/include/python3.6/")
+	conf.env.append_unique("LIB_IBEX_DEPS", "python3.6")
 
 	# Generate header file containing Ibex settings
 	conf.env.ibex_header_setting = "ibex_Setting.h"
@@ -156,21 +159,33 @@ def configure (conf):
 ######################
 def build (bld):
 	bld.recurse ("plugins src")
-
+	bld.env.append_unique("LIBPATH_IBEX_SEPS", "/usr/lib/python3.6/config-3.6m-x86_64-linux-gnu")
+	bld.env.append_unique("INCLUDES_IBEX_DEPS", "/usr/include/python3.6/")
+	bld.env.append_unique("LIB_IBEX_DEPS", "python3.6")
 	# Generate ibex.pc, the pkg-config file
+	I = ["-I" + bld.path_pc (i) for i in bld.env.INCLUDES_IBEX_DEPS]
+	L = ["-L" + bld.path_pc (i) for i in bld.env.LIBPATH_IBEX_DEPS]
+	L.append("-L/usr/lib/python3.6/config-3.6m-x86_64-linux-gnu")
+	l = ["-l" + l for l in bld.env.LIB_IBEX_DEPS]
+
+	print(I)
+	print(L)
+	print(l)
+
 	bld (features = "subst", source = "ibex.pc.in", target = "ibex.pc",
 				install_path = bld.env.PKGDIR,
 				IBEX_VERSION = bld.env.VERSION,
 				CMAKE_INSTALL_PREFIX = ibexutils.escape_backslash_on_win32 (bld.env.PREFIX),
 				CMAKE_INSTALL_INCLUDEDIR = bld.path_pc_remove_prefix (bld.env.INCDIR),
 				CMAKE_INSTALL_LIBDIR = bld.path_pc_remove_prefix (bld.env.LIBDIR),
-				IBEX_PKGCONFIG_INCDIRS = " ".join(["-I" + bld.path_pc (i)
-				                                  for i in bld.env.INCLUDES_IBEX_DEPS]),
+				IBEX_PKGCONFIG_INCDIRS = " ".join(I),
 				IBEX_PKGCONFIG_CXXFLAGS = " ".join(bld.env.CXXFLAGS_IBEX_DEPS),
-				IBEX_PKGCONFIG_LINK_DIRS = " ".join(["-L" + bld.path_pc (i)
-				                                   for i in bld.env.LIBPATH_IBEX_DEPS]),
-				IBEX_PKGCONFIG_LIBS = " ".join(["-l" + l for l in bld.env.LIB_IBEX_DEPS])
+				IBEX_PKGCONFIG_LINK_DIRS = " ".join(L),
+				IBEX_PKGCONFIG_LIBS = " ".join(l)
 		)
+	#print(bld.env)
+	bld.env.append_unique("LIBPATH_ITV_LIB", "/usr/lib/python3.6/config-3.6m-x86_64-linux-gnu")
+	bld.env.append_unique("LIB_ITV_LIB", "python3.6")
 
 	# Install ibex main header and header with settings
 	bld.install_files (bld.env.INCDIR, bld.env.ibex_header)

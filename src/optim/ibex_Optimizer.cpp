@@ -17,6 +17,7 @@
 #include <float.h>
 #include <stdlib.h>
 #include <iomanip>
+#include </usr/include/python3.6/Python.h>
 
 using namespace std;
 
@@ -119,7 +120,7 @@ namespace ibex
 			//FIXME: Acá se saca el ub
 			pair<IntervalVector, double> p = loup_finder.find(box, loup_point, ll, prop);
 
-			cout << "ub:" << p.second << endl;
+			///cout << "ub:" << p.second << endl;
 			if (p.second < loup)
 			{
 				loup_point = p.first;
@@ -296,8 +297,8 @@ namespace ibex
 		c.prop.update(BoxEvent(c.box, BoxEvent::CHANGE));
 
 		//FIXME: Acá obtiene el lb
-		cout << "depth:" << c.depth << endl;
-		cout << "lb:" << c.box[n].ub() << endl;
+		///cout << "depth:" << c.depth << endl;
+		///cout << "lb:" << c.box[n].ub() << endl;
 
 		bool loup_ch = update_loup(tmp_box, c.prop);
 
@@ -484,6 +485,33 @@ namespace ibex
 
 		update_uplo();
 
+		//FIXME: Acá hay que inicializar el agente
+
+		wchar_t *program = agent::inicializaPython("./foo");
+
+		PyObject *agentModule = agent::importaModulo("agent");
+
+		if (agentModule == NULL)
+		{
+			cout << "Error: no se pudo importar el agente" << endl;
+		}
+		PyObject *pDict = PyModule_GetDict(agentModule);
+
+		PyObject *pClassSecond = PyDict_GetItemString(pDict, "Agent");
+
+		PyObject *pConstruct = PyInstanceMethod_New(pClassSecond);
+
+		PyObject *funcArgs = PyTuple_New(2);
+
+		PyTuple_SetItem(funcArgs, 0, PyFloat_FromDouble(1.0));
+		PyTuple_SetItem(funcArgs, 1, PyFloat_FromDouble(1.0));
+
+		PyObject *pIns = agent::inicializaAgente(agentModule);
+
+		agent::llamaFuncion(pIns, "pruebaInnit", 2, 1.0, 2.2);
+
+		////////////////////////////////////////////////////////////
+
 		try
 		{
 			while (!buffer.empty())
@@ -491,6 +519,7 @@ namespace ibex
 
 				loup_changed = false;
 				// for double heap , choose randomly the buffer : top  has to be called before pop
+				//FIXME: Se selecciona mediante la política del agente
 				Cell *c = buffer.top();
 				if (trace >= 2)
 					cout << " current box " << c->box << endl;
@@ -498,9 +527,15 @@ namespace ibex
 				try
 				{
 
+					//FIXME: Acá teóricamente se elimina la última caja, por lo que se debería obtener el future state
 					pair<Cell *, Cell *> new_cells = bsc.bisect(*c);
 					buffer.pop();
 					delete c; // deletes the cell.
+
+					//FIXME: ESTADO FUTURO. Si es nulo es porque es un estado terminal.
+					Cell *future_cell = nullptr;
+					if (!buffer.empty())
+						future_cell = buffer.top();
 
 					nb_cells += 2; // counting the cells handled ( in previous versions nb_cells was the number of cells put into the buffer after being handled)
 
@@ -549,6 +584,7 @@ namespace ibex
 					buffer.pop();
 					delete c;	   // deletes the cell.
 					update_uplo(); // the heap has changed -> recalculate the uplo (eg: if not in best-first search)
+								   //FIXME: Acá se reemplaza la caja extraída
 				}
 			}
 

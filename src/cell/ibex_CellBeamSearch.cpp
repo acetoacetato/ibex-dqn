@@ -77,12 +77,12 @@ namespace ibex
 			cout << "Se usa currentbuffer por random" << endl;
 		}
 
-		if (randomVal && !(currentbuffer.empty()))
+		if (!(currentbuffer.empty()))
 			return currentbuffer.pop();
 		else if (!(futurebuffer.empty()))
 		{
 			Cell *c = futurebuffer.pop();
-			cout << c->depth << " | " << c->box.lb() << " | " << c->box.ub() << endl;
+			//cout << c->depth << " | " << c->box.lb() << " | " << c->box.ub() << endl;
 			move_buffers();
 			return c;
 		}

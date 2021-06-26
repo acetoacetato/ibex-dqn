@@ -1,5 +1,5 @@
 ./waf configure --lp-lib=soplex
-./waf install
+sudo ./waf install
 cd examples
 rm foo
 make foo 

@@ -1,0 +1,103 @@
+['-I${includedir}/ibex/3rd', '-I/usr/include/python3.6/']
+['-L${libdir}/ibex/3rd', '-L/usr/lib/python3.6/config-3.6m-x86_64-linux-gnu']
+['-lgaol', '-lgdtoa', '-lultim', '-lpython3.6']
+'AR' ['/usr/bin/ar']
+'ARFLAGS' ['rcs']
+'BINDIR' '/usr/local/bin'
+'BISON' ['/usr/bin/bison']
+'BISONFLAGS' ['-d', '--name-prefix=ibex', '--report=all', '--file-prefix=parser']
+'CC' ['/usr/bin/gcc']
+'CCLNK_SRC_F' []
+'CCLNK_TGT_F' ['-o']
+'CC_NAME' 'gcc'
+'CC_SRC_F' []
+'CC_TGT_F' ['-c', '-o']
+'CC_VERSION' ('7', '5', '0')
+'CFLAGS_MACBUNDLE' ['-fPIC']
+'CFLAGS_cshlib' ['-fPIC']
+'COMPILER_CC' 'gcc'
+'COMPILER_CXX' 'g++'
+'CPPPATH_ST' '-I%s'
+'CXX' ['/usr/bin/g++']
+'CXXFLAGS_IBEX' ['-std=c++11', '-lpython3.6', '-O3', '-Wno-deprecated', '-Wno-unknown-pragmas', '-Wno-unused-variable', '-Wno-unused-function', '-U__STRICT_ANSI__', '-U__STRICT_ANSI__']
+'CXXFLAGS_IBEX_DEPS' []
+'CXXFLAGS_MACBUNDLE' ['-fPIC']
+'CXXFLAGS_cxxshlib' ['-fPIC']
+'CXXLNK_SRC_F' []
+'CXXLNK_TGT_F' ['-o']
+'CXX_NAME' 'gcc'
+'CXX_SRC_F' []
+'CXX_TGT_F' ['-c', '-o']
+'DEBUG' False
+'DEFINES' ['NDEBUG=1', 'HAVE_MATHLIB_H=1', 'HAVE_GDTOA_GDTOA_H=1', 'HAVE_GAOL_GAOL_H=1', 'HAVE_GAOL_GAOL_INTERVAL_H=1', 'HAVE_CPPUNIT=1']
+'DEFINES_ST' '-D%s'
+'DEFINE_COMMENTS' {'HAVE_GAOL_GAOL_INTERVAL_H': '', 'HAVE_GAOL_GAOL_H': '', 'NDEBUG': '', 'HAVE_MATHLIB_H': '', 'HAVE_GDTOA_GDTOA_H': '', 'HAVE_CPPUNIT': ''}
+'DEST_BINFMT' 'elf'
+'DEST_CPU' 'x86_64'
+'DEST_OS' 'linux'
+'FLEX' ['/usr/bin/flex']
+'FLEXFLAGS' ['-t', '-Pibex']
+'GNUPLOT' ['/usr/bin/gnuplot']
+'HAVE_CPPUNIT' 1
+'HAVE_ITV_LIB' 1
+'IBEX_HDR' ['../interval_lib_wrapper/gaol/ibex_IntervalLibWrapper.h', '../interval_lib_wrapper/gaol/ibex_IntervalLibWrapper.inl', '../lp_lib_wrapper/none/ibex_LPLibWrapper.h', 'arithmetic/ibex_Dim.h', 'arithmetic/ibex_Domain.h', 'arithmetic/ibex_DoubleIndex.h', 'arithmetic/ibex_InnerArith.h', 'arithmetic/ibex_Interval.h', 'arithmetic/ibex_IntervalMatrix.h', 'arithmetic/ibex_IntervalVector.h', 'arithmetic/ibex_InvalidIntervalVectorOp.h', 'arithmetic/ibex_LinearArith.h', 'arithmetic/ibex_Matrix.h', 'arithmetic/ibex_TemplateDomain.h', 'arithmetic/ibex_TemplateMatrix.h', 'arithmetic/ibex_TemplateVector.h', 'arithmetic/ibex_Vector.h', 'bisector/ibex_Bisection.h', 'bisector/ibex_BisectionPoint.h', 'bisector/ibex_Bsc.h', 'bisector/ibex_LSmear.h', 'bisector/ibex_LargestFirst.h', 'bisector/ibex_NoBisectableVariableException.h', 'bisector/ibex_OptimLargestFirst.h', 'bisector/ibex_RoundRobin.h', 'bisector/ibex_SmearFunction.h', 'cell/ibex_Cell.h', 'cell/ibex_CellBeamSearch.h', 'cell/ibex_CellBuffer.h', 'cell/ibex_CellBufferOptim.h', 'cell/ibex_CellCostFunc.h', 'cell/ibex_CellDoubleHeap.h', 'cell/ibex_CellHeap.h', 'cell/ibex_CellList.h', 'cell/ibex_CellStack.h', 'combinatorial/ibex_QInter.h', 'contractor/ibex_ContractContext.h', 'contractor/ibex_Ctc.h', 'contractor/ibex_Ctc3BCid.h', 'contractor/ibex_CtcAcid.h', 'contractor/ibex_CtcCompo.h', 'contractor/ibex_CtcEmpty.h', 'contractor/ibex_CtcExist.h', 'contractor/ibex_CtcFixPoint.h', 'contractor/ibex_CtcForAll.h', 'contractor/ibex_CtcFwdBwd.h', 'contractor/ibex_CtcHC4.h', 'contractor/ibex_CtcIdentity.h', 'contractor/ibex_CtcInteger.h', 'contractor/ibex_CtcInverse.h', 'contractor/ibex_CtcKuhnTucker.h', 'contractor/ibex_CtcKuhnTuckerLP.h', 'contractor/ibex_CtcLinearRelax.h', 'contractor/ibex_CtcNewton.h', 'contractor/ibex_CtcNotIn.h', 'contractor/ibex_CtcOptimShaving.h', 'contractor/ibex_CtcPolytopeHull.h', 'contractor/ibex_CtcPropag.h', 'contractor/ibex_CtcQInter.h', 'contractor/ibex_CtcQuantif.h', 'contractor/ibex_CtcUnion.h', 'data/ibex_Cov.h', 'data/ibex_CovIBUList.h', 'data/ibex_CovIUList.h', 'data/ibex_CovList.h', 'data/ibex_CovManifold.h', 'data/ibex_CovOptimData.h', 'data/ibex_CovSolverData.h', 'function/ibex_BwdAlgorithm.h', 'function/ibex_CompiledFunction.h', 'function/ibex_Eval.h', 'function/ibex_ExprData.h', 'function/ibex_ExprDomain.h', 'function/ibex_Fnc.h', 'function/ibex_FncProj.h', 'function/ibex_Function.h', 'function/ibex_FwdAlgorithm.h', 'function/ibex_Gradient.h', 'function/ibex_HC4Revise.h', 'function/ibex_InHC4Revise.h', 'function/ibex_NumConstraint.h', 'function/ibex_VarSet.h', 'loup/ibex_LoupFinder.h', 'loup/ibex_LoupFinderCertify.h', 'loup/ibex_LoupFinderDefault.h', 'loup/ibex_LoupFinderDuality.h', 'loup/ibex_LoupFinderFwdBwd.h', 'loup/ibex_LoupFinderInHC4.h', 'loup/ibex_LoupFinderProbing.h', 'loup/ibex_LoupFinderXTaylor.h', 'numeric/ibex_Certificate.h', 'numeric/ibex_Kernel.h', 'numeric/ibex_LPException.h', 'numeric/ibex_LPSolver.h', 'numeric/ibex_Linear.h', 'numeric/ibex_LinearException.h', 'numeric/ibex_Linearizer.h', 'numeric/ibex_LinearizerCompo.h', 'numeric/ibex_LinearizerDuality.h', 'numeric/ibex_LinearizerFixed.h', 'numeric/ibex_LinearizerXTaylor.h', 'numeric/ibex_Newton.h', 'operators/ibex_atanhc.h', 'operators/ibex_atanhccc.h', 'operators/ibex_crossproduct.h', 'operators/ibex_sinc.h', 'operators/ibex_trace.h', 'optim/ibex_BxpMultipliers.h', 'optim/ibex_BxpOptimData.h', 'optim/ibex_DefaultOptimizer.h', 'optim/ibex_DefaultOptimizerConfig.h', 'optim/ibex_LineSearch.h', 'optim/ibex_OptimMemory.h', 'optim/ibex_Optimizer.h', 'optim/ibex_Optimizer04Config.h', 'optim/ibex_OptimizerConfig.h', 'optim/ibex_UnconstrainedLocalSearch.h', 'parser/ibex_P_CtrGenerator.h', 'parser/ibex_P_Expr.h', 'parser/ibex_P_ExprGenerator.h', 'parser/ibex_P_ExprPrinter.h', 'parser/ibex_P_ExprVisitor.h', 'parser/ibex_P_NumConstraint.h', 'parser/ibex_P_Scope.h', 'parser/ibex_P_Source.h', 'parser/ibex_P_Struct.h', 'parser/ibex_P_SysGenerator.h', 'parser/ibex_SyntaxError.h', 'parser/ibex_UnknownFileException.h', 'predicate/ibex_BoolInterval.h', 'predicate/ibex_Pdc.h', 'predicate/ibex_PdcAnd.h', 'predicate/ibex_PdcCleared.h', 'predicate/ibex_PdcDiameterLT.h', 'predicate/ibex_PdcFirstOrder.h', 'predicate/ibex_PdcFwdBwd.h', 'predicate/ibex_PdcHansenFeasibility.h', 'predicate/ibex_PdcImageSubset.h', 'predicate/ibex_PdcNo.h', 'predicate/ibex_PdcNot.h', 'predicate/ibex_PdcOr.h', 'predicate/ibex_PdcYes.h', 'set/ibex_Sep.h', 'set/ibex_SepBoundaryCtc.h', 'set/ibex_SepCtcPair.h', 'set/ibex_SepFwdBwd.h', 'set/ibex_SepInter.h', 'set/ibex_SepInverse.h', 'set/ibex_SepNot.h', 'set/ibex_SepQInter.h', 'set/ibex_SepUnion.h', 'set/ibex_Set.h', 'set/ibex_SetBisect.h', 'set/ibex_SetInterval.h', 'set/ibex_SetLeaf.h', 'set/ibex_SetNode.h', 'set/ibex_SetValueNode.h', 'set/ibex_SetVisitor.h', 'solver/ibex_DefaultSolver.h', 'solver/ibex_Solver.h', 'strategy/ibex_BoxEvent.h', 'strategy/ibex_BoxProperties.h', 'strategy/ibex_Bxp.h', 'strategy/ibex_BxpActiveCtr.h', 'strategy/ibex_BxpActiveCtrs.h', 'strategy/ibex_BxpLinearRelaxArgMin.h', 'strategy/ibex_BxpSystemCache.h', 'strategy/ibex_Paver.h', 'strategy/ibex_SetImage.h', 'strategy/ibex_SubPaving.h', 'symbolic/ibex_CmpOp.h', 'symbolic/ibex_Expr.h', 'symbolic/ibex_Expr2DAG.h', 'symbolic/ibex_Expr2Minibex.h', 'symbolic/ibex_Expr2Polynom.h', 'symbolic/ibex_ExprCmp.h', 'symbolic/ibex_ExprCopy.h', 'symbolic/ibex_ExprCtr.h', 'symbolic/ibex_ExprDiff.h', 'symbolic/ibex_ExprFuncDomain.h', 'symbolic/ibex_ExprLinearity.h', 'symbolic/ibex_ExprMonomial.h', 'symbolic/ibex_ExprOccCounter.h', 'symbolic/ibex_ExprOperators.h.in', 'symbolic/ibex_ExprPolynomial.h', 'symbolic/ibex_ExprPrinter.h', 'symbolic/ibex_ExprSimplify.h', 'symbolic/ibex_ExprSimplify2.h', 'symbolic/ibex_ExprSize.h', 'symbolic/ibex_ExprSubNodes.h', 'symbolic/ibex_ExprVisitor.h', 'symbolic/ibex_InputNodeMap.h', 'symbolic/ibex_NodeMap.h', 'system/ibex_ExtendedSystem.h', 'system/ibex_FncActiveCtrs.h', 'system/ibex_FncKuhnTucker.h', 'system/ibex_KuhnTuckerSystem.h', 'system/ibex_NormalizedSystem.h', 'system/ibex_System.h', 'system/ibex_SystemFactory.h', 'tools/ibex_Agenda.h', 'tools/ibex_Array.h', 'tools/ibex_BitSet.h', 'tools/ibex_DirectedHyperGraph.h', 'tools/ibex_DoubleHeap.h', 'tools/ibex_Exception.h', 'tools/ibex_Heap.h', 'tools/ibex_HyperGraph.h', 'tools/ibex_Id.h', 'tools/ibex_IntStack.h', 'tools/ibex_Map.h', 'tools/ibex_Memory.h', 'tools/ibex_Random.h', 'tools/ibex_SharedHeap.h', 'tools/ibex_String.h', 'tools/ibex_SymbolMap.h', 'tools/ibex_Timer.h', 'tools/ibex_mistral_Bitset.h']
+'IBEX_INTERVAL_LIB_INCLUDES' ''
+'IBEX_SRC' ['../interval_lib_wrapper/gaol/ibex_IntervalLibWrapper.cpp', '../lp_lib_wrapper/none/ibex_LPLibWrapper.cpp', 'arithmetic/ibex_Dim.cpp', 'arithmetic/ibex_DoubleIndex.cpp', 'arithmetic/ibex_InnerArith.cpp', 'arithmetic/ibex_Interval.cpp', 'arithmetic/ibex_IntervalMatrix.cpp', 'arithmetic/ibex_IntervalVector.cpp', 'arithmetic/ibex_Matrix.cpp', 'arithmetic/ibex_SetMembership.cpp', 'arithmetic/ibex_Vector.cpp', 'bisector/ibex_Bsc.cpp', 'bisector/ibex_LSmear.cpp', 'bisector/ibex_LargestFirst.cpp', 'bisector/ibex_OptimLargestFirst.cpp', 'bisector/ibex_RoundRobin.cpp', 'bisector/ibex_SmearFunction.cpp', 'cell/ibex_Cell.cpp', 'cell/ibex_CellBeamSearch.cpp', 'cell/ibex_CellBuffer.cpp', 'cell/ibex_CellCostFunc.cpp', 'cell/ibex_CellHeap.cpp', 'cell/ibex_CellList.cpp', 'cell/ibex_CellStack.cpp', 'combinatorial/ibex_QInter.cpp', 'contractor/ibex_Ctc.cpp', 'contractor/ibex_Ctc3BCid.cpp', 'contractor/ibex_CtcAcid.cpp', 'contractor/ibex_CtcCompo.cpp', 'contractor/ibex_CtcEmpty.cpp', 'contractor/ibex_CtcExist.cpp', 'contractor/ibex_CtcFixPoint.cpp', 'contractor/ibex_CtcForAll.cpp', 'contractor/ibex_CtcFwdBwd.cpp', 'contractor/ibex_CtcHC4.cpp', 'contractor/ibex_CtcIdentity.cpp', 'contractor/ibex_CtcInteger.cpp', 'contractor/ibex_CtcInverse.cpp', 'contractor/ibex_CtcKuhnTucker.cpp', 'contractor/ibex_CtcKuhnTuckerLP.cpp', 'contractor/ibex_CtcLinearRelax.cpp', 'contractor/ibex_CtcNewton.cpp', 'contractor/ibex_CtcNotIn.cpp', 'contractor/ibex_CtcOptimShaving.cpp', 'contractor/ibex_CtcPolytopeHull.cpp', 'contractor/ibex_CtcPropag.cpp', 'contractor/ibex_CtcQInter.cpp', 'contractor/ibex_CtcQuantif.cpp', 'contractor/ibex_CtcUnion.cpp', 'data/ibex_Cov.cpp', 'data/ibex_CovIBUList.cpp', 'data/ibex_CovIUList.cpp', 'data/ibex_CovList.cpp', 'data/ibex_CovManifold.cpp', 'data/ibex_CovOptimData.cpp', 'data/ibex_CovSolverData.cpp', 'function/ibex_CompiledFunction.cpp', 'function/ibex_Eval.cpp', 'function/ibex_Fnc.cpp', 'function/ibex_FncProj.cpp', 'function/ibex_Function.cpp', 'function/ibex_FunctionBuild.cpp', 'function/ibex_Gradient.cpp', 'function/ibex_HC4Revise.cpp', 'function/ibex_InHC4Revise.cpp', 'function/ibex_NumConstraint.cpp', 'function/ibex_VarSet.cpp', 'loup/ibex_LoupFinder.cpp', 'loup/ibex_LoupFinderCertify.cpp', 'loup/ibex_LoupFinderDefault.cpp', 'loup/ibex_LoupFinderDuality.cpp', 'loup/ibex_LoupFinderFwdBwd.cpp', 'loup/ibex_LoupFinderInHC4.cpp', 'loup/ibex_LoupFinderProbing.cpp', 'loup/ibex_LoupFinderXTaylor.cpp', 'numeric/ibex_Certificate.cpp', 'numeric/ibex_Kernel.cpp', 'numeric/ibex_LPSolver.cpp', 'numeric/ibex_Linear.cpp', 'numeric/ibex_Linearizer.cpp', 'numeric/ibex_LinearizerCompo.cpp', 'numeric/ibex_LinearizerDuality.cpp', 'numeric/ibex_LinearizerFixed.cpp', 'numeric/ibex_LinearizerXTaylor.cpp', 'numeric/ibex_Newton.cpp', 'operators/ibex_atanhc.cpp', 'operators/ibex_atanhccc.cpp', 'operators/ibex_crossproduct.cpp', 'operators/ibex_sinc.cpp', 'operators/ibex_trace.cpp', 'optim/ibex_BxpMultipliers.cpp', 'optim/ibex_BxpOptimData.cpp', 'optim/ibex_DefaultOptimizerConfig.cpp', 'optim/ibex_LineSearch.cpp', 'optim/ibex_Optimizer.cpp', 'optim/ibex_Optimizer04Config.cpp', 'optim/ibex_UnconstrainedLocalSearch.cpp', 'parser/ibex_P_CtrGenerator.cpp', 'parser/ibex_P_Expr.cpp', 'parser/ibex_P_ExprGenerator.cpp', 'parser/ibex_P_ExprPrinter.cpp', 'parser/ibex_P_NumConstraint.cpp', 'parser/ibex_P_Scope.cpp', 'parser/ibex_P_Source.cpp', 'parser/ibex_P_Struct.cpp', 'parser/ibex_P_SysGenerator.cpp', 'parser/ibex_SyntaxError.cpp', 'parser/lexer.l', 'parser/parser.yc', 'predicate/ibex_PdcAnd.cpp', 'predicate/ibex_PdcCleared.cpp', 'predicate/ibex_PdcDiameterLT.cpp', 'predicate/ibex_PdcFirstOrder.cpp', 'predicate/ibex_PdcFwdBwd.cpp', 'predicate/ibex_PdcHansenFeasibility.cpp', 'predicate/ibex_PdcImageSubset.cpp', 'predicate/ibex_PdcNo.cpp', 'predicate/ibex_PdcNot.cpp', 'predicate/ibex_PdcOr.cpp', 'predicate/ibex_PdcYes.cpp', 'set/ibex_Sep.cpp', 'set/ibex_SepBoundaryCtc.cpp', 'set/ibex_SepCtcPair.cpp', 'set/ibex_SepFwdBwd.cpp', 'set/ibex_SepInter.cpp', 'set/ibex_SepInverse.cpp', 'set/ibex_SepNot.cpp', 'set/ibex_SepQInter.cpp', 'set/ibex_SepUnion.cpp', 'set/ibex_Set.cpp', 'set/ibex_SetBisect.cpp', 'set/ibex_SetConnectedComponents.cpp', 'set/ibex_SetInterval.cpp', 'set/ibex_SetLeaf.cpp', 'set/ibex_SetNode.cpp', 'set/ibex_SetValueNode.cpp', 'solver/ibex_DefaultSolver.cpp', 'solver/ibex_Solver.cpp', 'strategy/ibex_BoxProperties.cpp', 'strategy/ibex_BxpActiveCtr.cpp', 'strategy/ibex_BxpActiveCtrs.cpp', 'strategy/ibex_BxpLinearRelaxArgMin.cpp', 'strategy/ibex_BxpSystemCache.cpp', 'strategy/ibex_Paver.cpp', 'strategy/ibex_SetImage.cpp', 'symbolic/ibex_CmpOp.cpp', 'symbolic/ibex_Expr.cpp', 'symbolic/ibex_Expr2DAG.cpp', 'symbolic/ibex_Expr2Minibex.cpp', 'symbolic/ibex_Expr2Polynom.cpp', 'symbolic/ibex_ExprCmp.cpp', 'symbolic/ibex_ExprCopy.cpp', 'symbolic/ibex_ExprDiff.cpp', 'symbolic/ibex_ExprFuncDomain.cpp', 'symbolic/ibex_ExprLinearity.cpp', 'symbolic/ibex_ExprMonomial.cpp', 'symbolic/ibex_ExprOccCounter.cpp', 'symbolic/ibex_ExprOperators.cpp.in', 'symbolic/ibex_ExprPolynomial.cpp', 'symbolic/ibex_ExprPrinter.cpp', 'symbolic/ibex_ExprSimplify.cpp', 'symbolic/ibex_ExprSimplify2.cpp', 'symbolic/ibex_ExprSize.cpp', 'symbolic/ibex_ExprSubNodes.cpp', 'symbolic/ibex_InputNodeMap.cpp', 'system/ibex_ExtendedSystem.cpp', 'system/ibex_FncActiveCtrs.cpp', 'system/ibex_FncKuhnTucker.cpp', 'system/ibex_KuhnTuckerSystem.cpp', 'system/ibex_NormalizedSystem.cpp', 'system/ibex_System.cpp', 'system/ibex_SystemFactory.cpp', 'system/ibex_SystemMerge.cpp', 'tools/ibex_Agenda.cpp', 'tools/ibex_BitSet.cpp', 'tools/ibex_DirectedHyperGraph.cpp', 'tools/ibex_Exception.cpp', 'tools/ibex_HyperGraph.cpp', 'tools/ibex_Id.cpp', 'tools/ibex_Memory.cpp', 'tools/ibex_Random.cpp', 'tools/ibex_String.cpp', 'tools/ibex_Timer.cpp']
+'INCDIR' '/usr/local/include'
+'INCDIR_3RD' '/usr/local/include/ibex/3rd'
+'INCDIR_HDR' '/usr/local/include/ibex'
+'INCLUDES_IBEX' ['/home/alen/ibex-lib/__build__', '/home/alen/ibex-lib/interval_lib_wrapper/gaol', '/home/alen/ibex-lib/lp_lib_wrapper/none', '/home/alen/ibex-lib/src/arithmetic', '/home/alen/ibex-lib/__build__/src/arithmetic', '/home/alen/ibex-lib/src/bin', '/home/alen/ibex-lib/__build__/src/bin', '/home/alen/ibex-lib/src/bisector', '/home/alen/ibex-lib/__build__/src/bisector', '/home/alen/ibex-lib/src/cell', '/home/alen/ibex-lib/__build__/src/cell', '/home/alen/ibex-lib/src/combinatorial', '/home/alen/ibex-lib/__build__/src/combinatorial', '/home/alen/ibex-lib/src/contractor', '/home/alen/ibex-lib/__build__/src/contractor', '/home/alen/ibex-lib/src/data', '/home/alen/ibex-lib/__build__/src/data', '/home/alen/ibex-lib/src/function', '/home/alen/ibex-lib/__build__/src/function', '/home/alen/ibex-lib/src/loup', '/home/alen/ibex-lib/__build__/src/loup', '/home/alen/ibex-lib/src/numeric', '/home/alen/ibex-lib/__build__/src/numeric', '/home/alen/ibex-lib/src/operators', '/home/alen/ibex-lib/__build__/src/operators', '/home/alen/ibex-lib/src/optim', '/home/alen/ibex-lib/__build__/src/optim', '/home/alen/ibex-lib/src/parser', '/home/alen/ibex-lib/__build__/src/parser', '/home/alen/ibex-lib/src/predicate', '/home/alen/ibex-lib/__build__/src/predicate', '/home/alen/ibex-lib/src/set', '/home/alen/ibex-lib/__build__/src/set', '/home/alen/ibex-lib/src/solver', '/home/alen/ibex-lib/__build__/src/solver', '/home/alen/ibex-lib/src/strategy', '/home/alen/ibex-lib/__build__/src/strategy', '/home/alen/ibex-lib/src/symbolic', '/home/alen/ibex-lib/__build__/src/symbolic', '/home/alen/ibex-lib/src/system', '/home/alen/ibex-lib/__build__/src/system', '/home/alen/ibex-lib/src/tools', '/home/alen/ibex-lib/__build__/src/tools']
+'INCLUDES_IBEX_DEPS' ['/usr/local/include/ibex/3rd', '/usr/include/python3.6/']
+'INCLUDES_ITV_LIB' ['/home/alen/ibex-lib/__build__/3rd/include', '/home/alen/ibex-lib/__build__/3rd/include', '/home/alen/ibex-lib/__build__/3rd/include', '/home/alen/ibex-lib/__build__/3rd/include']
+'INCLUDES_TESTS' ['/home/alen/ibex-lib/tests']
+'INSTALL_3RD' True
+'INTERVAL_LIB' 'GAOL'
+'LIBDIR' '/usr/local/lib'
+'LIBDIR_3RD' '/usr/local/lib/ibex/3rd'
+'LIBPATH_IBEX_DEPS' ['/usr/local/lib/ibex/3rd']
+'LIBPATH_IBEX_SEPS' ['/usr/lib/python3.6/config-3.6m-x86_64-linux-gnu']
+'LIBPATH_ITV_LIB' ['/home/alen/ibex-lib/__build__/3rd/lib', '/home/alen/ibex-lib/__build__/3rd/lib', '/home/alen/ibex-lib/__build__/3rd/lib', '/usr/lib/python3.6/config-3.6m-x86_64-linux-gnu']
+'LIBPATH_ST' '-L%s'
+'LIB_3RD_LIST' ['ultim', 'gdtoa', 'gaol']
+'LIB_CPPUNIT' ['cppunit']
+'LIB_IBEX_DEPS' ['gaol', 'gdtoa', 'ultim', 'python3.6']
+'LIB_ITV_LIB' ['gaol', 'gdtoa', 'ultim']
+'LIB_ST' '-l%s'
+'LINKFLAGS_MACBUNDLE' ['-bundle', '-undefined', 'dynamic_lookup']
+'LINKFLAGS_cshlib' ['-shared']
+'LINKFLAGS_cstlib' ['-Wl,-Bstatic']
+'LINKFLAGS_cxxshlib' ['-shared']
+'LINKFLAGS_cxxstlib' ['-Wl,-Bstatic']
+'LINK_CC' ['/usr/bin/gcc']
+'LINK_CXX' ['/usr/bin/g++']
+'LP_LIB' 'NONE'
+'MAKE' ['/usr/bin/make']
+'OPERATORS_FCT_DEF' 'inline Interval atanhc(const Interval& x) { return UnaryOperator<ATANHC,Interval,Interval>::fwd(x); }\ninline Interval atanhccc(const Interval& x) { return UnaryOperator<ATANHCCC,Interval,Interval>::fwd(x); }\ninline Interval sinc(const Interval& x) { return UnaryOperator<SINC,Interval,Interval>::fwd(x); }\ninline IntervalVector trace(const IntervalMatrix& x) { return UnaryOperator<TRACE,IntervalMatrix,IntervalVector>::fwd(x); }\ninline IntervalVector cross(const IntervalVector& x1, const IntervalVector& x2) { return BinaryOperator<CROSS_PRODUCT,IntervalVector,IntervalVector,IntervalVector>::fwd(x1,x2); }'
+'OPERATORS_HEADERS' ['ibex_atanhc.h', 'ibex_atanhccc.h', 'ibex_crossproduct.h', 'ibex_sinc.h', 'ibex_trace.h']
+'OPERATORS_INCLUDES' '#include "ibex_atanhc.h"\n#include "ibex_atanhccc.h"\n#include "ibex_crossproduct.h"\n#include "ibex_sinc.h"\n#include "ibex_trace.h"'
+'OPERATORS_MACRO_BINARY' 'ADD_BINARY_OPERATOR(CROSS_PRODUCT,IntervalVector,IntervalVector,IntervalVector);'
+'OPERATORS_MACRO_UNARY' 'ADD_UNARY_OPERATOR(ATANHC,Interval,Interval);\nADD_UNARY_OPERATOR(ATANHCCC,Interval,Interval);\nADD_UNARY_OPERATOR(SINC,Interval,Interval);\nADD_UNARY_OPERATOR(TRACE,IntervalMatrix,IntervalVector);'
+'PKGCONFIG' ['/usr/bin/pkg-config']
+'PKGDIR' '/usr/local/share/pkgconfig'
+'PREFIX' '/usr/local'
+'RPATH_ST' '-Wl,-rpath,%s'
+'SHLIB_MARKER' '-Wl,-Bdynamic'
+'SONAME_ST' '-Wl,-h,%s'
+'STLIBPATH_ST' '-L%s'
+'STLIB_MARKER' '-Wl,-Bstatic'
+'STLIB_ST' '-l%s'
+'TEST_SRC' ['ExFunction.cpp', 'Instance.cpp', 'Ponts30.cpp', 'TestAgenda.cpp', 'TestArith.cpp', 'TestBitSet.cpp', 'TestBoolInterval.cpp', 'TestBxpSystemCache.cpp', 'TestCell.cpp', 'TestCellHeap.cpp', 'TestCov.cpp', 'TestCross.cpp', 'TestCtcExist.cpp', 'TestCtcForAll.cpp', 'TestCtcFwdBwd.cpp', 'TestCtcHC4.cpp', 'TestCtcInteger.cpp', 'TestCtcNotIn.cpp', 'TestCtcPolytopeHull.cpp', 'TestDim.cpp', 'TestDomain.cpp', 'TestDoubleHeap.cpp', 'TestDoubleIndex.cpp', 'TestEval.cpp', 'TestExpr.cpp', 'TestExpr2DAG.cpp', 'TestExpr2Minibex.cpp', 'TestExprCmp.cpp', 'TestExprCopy.cpp', 'TestExprDiff.cpp', 'TestExprLinearity.cpp', 'TestExprMonomial.cpp', 'TestExprPolynomial.cpp', 'TestExprSimplify.cpp', 'TestExprSimplify2.cpp', 'TestFncKuhnTucker.cpp', 'TestFunction.cpp', 'TestGradient.cpp', 'TestHC4Revise.cpp', 'TestInHC4Revise.cpp', 'TestInnerArith.cpp', 'TestInterval.cpp', 'TestIntervalMatrix.cpp', 'TestIntervalVector.cpp', 'TestKernel.cpp', 'TestKuhnTuckerSystem.cpp', 'TestLPSolver.cpp', 'TestLinear.cpp', 'TestNewton.cpp', 'TestNumConstraint.cpp', 'TestOptimizer.cpp', 'TestParser.cpp', 'TestPdcHansenFeasibility.cpp', 'TestRoundRobin.cpp', 'TestSeparator.cpp', 'TestSet.cpp', 'TestSinc.cpp', 'TestSolver.cpp', 'TestString.cpp', 'TestSymbolMap.cpp', 'TestSystem.cpp', 'TestTimer.cpp', 'TestTrace.cpp', 'TestUnconstrainedLocalSearch.cpp', 'TestVarSet.cpp', 'utest.cpp', 'utils.cpp']
+'VERSION' '2.8.9'
+'cfg_files' ['/home/alen/ibex-lib/__build__/ibex_Setting.h', '/home/alen/ibex-lib/__build__/ibex.h']
+'cprogram_PATTERN' '%s'
+'cshlib_PATTERN' 'lib%s.so'
+'cstlib_PATTERN' 'lib%s.a'
+'cxxprogram_PATTERN' '%s'
+'cxxshlib_PATTERN' 'lib%s.so'
+'cxxstlib_PATTERN' 'lib%s.a'
+'define_key' ['NDEBUG', 'HAVE_MATHLIB_H', 'HAVE_GDTOA_GDTOA_H', 'HAVE_GAOL_GAOL_H', 'HAVE_GAOL_GAOL_INTERVAL_H', 'HAVE_CPPUNIT']
+'ibex_header' 'ibex.h'
+'ibex_header_setting' 'ibex_Setting.h'
+'include_key' []
+'macbundle_PATTERN' '%s.bundle'
+'clean' finished successfully (0.148s)

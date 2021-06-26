@@ -62,11 +62,23 @@ class Agent:
         print(model.summary())
         return model
 
-    def get_qs(self, state, step):
+    def get_qs(self, state):
         main_model_pred = self.model.predict(state)[0]
         target_model_pred = self.target_model.predict(state)[0]
         return (main_model_pred, target_model_pred)
 
+
+    '''
+        Guarda la experiencia dentro de la replay memory
+        
+        observation: el estado
+        action: el id de la acción tomada
+        reward: el resultado de la función de recompensa
+        new_observation: el estado resultante de ejecutar la acción
+        done: si es que terminó la simulación. En nuestro caso cuando new_observation sea null
+
+
+    '''
     def recolecta_experiencia(self, observation, action, reward, new_observation, done):
         self.replay_memory.append([observation, action, reward, new_observation, done]) 
         return 1
@@ -92,7 +104,7 @@ class Agent:
 
         X = []
         Y = []
-
+        
         for index, (observation, action, reward, new_observation, done) in enumerate(mini_batch):
             if not done:
                 max_future_q = reward + discount_factor * np.max(future_qs_list[index])
