@@ -488,10 +488,10 @@ namespace ibex
 		UB = uplo;
 		depth = c->depth;
 
-		cout << "lb:" << lb << endl;
-		cout << "ub:" << ub << endl;
-		cout << "UB: " << UB << endl;
-		cout << "depth: " << depth << endl;
+		//cout << "lb:" << lb << endl;
+		//cout << "ub:" << ub << endl;
+		//cout << "UB: " << UB << endl;
+		//cout << "depth: " << depth << endl;
 
 		v.push_back(lb);
 		v.push_back(ub);
@@ -509,34 +509,22 @@ namespace ibex
 		//FIXME: Acá hay que inicializar el agente
 
 		wchar_t *program = agent::inicializaPython("./foo");
-
 		PyObject *agentModule = agent::importaModulo("agent");
 
 		if (agentModule == NULL)
 		{
 			cout << "Error: no se pudo importar el agente" << endl;
 		}
-		PyObject *pDict = PyModule_GetDict(agentModule);
 
-		PyObject *pClassSecond = PyDict_GetItemString(pDict, "Agent");
-
-		PyObject *pConstruct = PyInstanceMethod_New(pClassSecond);
-
-		PyObject *funcArgs = PyTuple_New(2);
-
-		PyTuple_SetItem(funcArgs, 0, PyFloat_FromDouble(1.0));
-		PyTuple_SetItem(funcArgs, 1, PyFloat_FromDouble(1.0));
-
-		PyObject *pIns = agent::inicializaAgente(agentModule);
-
-		agent::llamaFuncion(pIns, "pruebaInnit", 2, 1.0, 2.2);
-
+		// Inicializa el agente
+		agent::agente = agent::inicializaAgente(agentModule);
 		////////////////////////////////////////////////////////////
 
 		Cell *past_cell = nullptr;
 		std::vector<double> past_state;
 		std::vector<double> future_state;
 		double past_uplo = NEG_INFINITY;
+		int iter = 0;
 		try
 		{
 			while (!buffer.empty())
@@ -633,17 +621,23 @@ namespace ibex
 
 				//FIXME: ESTADO FUTURO. Si es nulo es porque es un estado terminal.
 				Cell *future_cell = nullptr;
+				future_state.clear();
 				if (!buffer.empty())
 				{
 					future_cell = buffer.top();
-
-					cout << "Futuro: " << endl;
-					future_state.clear();
 					forma_estado(future_cell, future_state, loup_finder, loup_point, uplo, n);
 				}
 
 				// Recolecta experiencia
-				agent::recolectaExperiencia(past_state, 0, agent::reward(past_uplo, uplo), future_state, 0);
+				//agent::recolectaExperiencia(agente, past_state, agent::reward(past_uplo, uplo), future_state, 0);
+
+				//std::vector<double> *v =
+
+				if (agent::agente != nullptr)
+					agent::getQS(past_state, 1, 1);
+				//for (auto i = v->begin(); i != v->end(); ++i)
+				//	std::cout << *i << ' ';
+				iter++;
 			}
 
 			timer.stop();

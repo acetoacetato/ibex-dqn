@@ -5,6 +5,8 @@ namespace agent
     using namespace std;
     using boost::format;
 
+    PyObject *agente = nullptr;
+
     PyObject *importaModulo(const string agent)
     {
         auto modulo = PyImport_ImportModule(agent.c_str());
@@ -36,7 +38,7 @@ namespace agent
         PyObject *funcArgs = PyTuple_New(2);
 
         PyTuple_SetItem(funcArgs, 0, PyFloat_FromDouble(sizeInput));
-        PyTuple_SetItem(funcArgs, 1, PyFloat_FromDouble(sizeInput));
+        PyTuple_SetItem(funcArgs, 1, PyFloat_FromDouble(sizeAction));
 
         PyObject *pIns = PyObject_CallObject(pConstruct, funcArgs);
 
@@ -48,13 +50,78 @@ namespace agent
     // r(estado_inicial, accion): resultado función de recompensa
     // ub, lb, UB, depth: del estado futuro
     // done: si estado futuro es null
-    int recolectaExperiencia(std::vector<double> &is, int a, double r, std::vector<double> &fs, int done)
+    int recolectaExperiencia(std::vector<double> &is, double r, std::vector<double> &fs, int done)
     {
+        PyObject *entrada = creaTupla(is);
+        PyObject *futuro = creaTupla(fs);
+        PyObject *reward = PyFloat_FromDouble(r);
+        PyObject *hecho = (done) ? Py_True : Py_False;
         cout << "Esto al menos ingresa" << endl;
+        llamaFuncion("recolecta_experiencia", 4, entrada, reward, futuro, hecho);
         return 0;
     }
 
-    void *llamaFuncion(PyObject *agente, const char nombreFuncion[], int nargs, ...)
+    PyObject *creaTupla(std::vector<double> &v)
+    {
+        PyObject *tupla = PyTuple_New(v.size());
+        for (int i = 0; i < v.size(); i++)
+        {
+            PyTuple_SetItem(tupla, i, PyFloat_FromDouble(v[i]));
+        }
+        return tupla;
+    }
+    PyObject *creaLista(std::vector<double> &v)
+    {
+        PyObject *lista = PyList_New(v.size());
+        for (int i = 0; i < v.size(); i++)
+        {
+            PyList_SetItem(lista, i, PyFloat_FromDouble(v[i]));
+        }
+        return lista;
+    }
+
+    std::vector<double> *tuplaOListaAvector(PyObject *in)
+    {
+        vector<double> *v = new vector<double>();
+        if (PyTuple_Check(in))
+        {
+            for (Py_ssize_t i = 0; i < PyTuple_Size(in); i++)
+            {
+                PyObject *val = PyTuple_GetItem(in, i);
+                v->push_back(PyFloat_AsDouble(val));
+            }
+        }
+        else
+        {
+            if (PyList_Check(in))
+            {
+                for (Py_ssize_t i = 0; i < PyList_Size(in); i++)
+                {
+                    PyObject *val = PyList_GetItem(in, i);
+                    v->push_back(PyFloat_AsDouble(val));
+                }
+            }
+            else
+            {
+                throw logic_error("Pasado PyObject que no es tupla ni lista.");
+            }
+        }
+        return v;
+    }
+
+    std::vector<double> *getQS(std::vector<double> &estado, int upd, int main)
+    {
+        if (!estado.size())
+            return new std::vector<double>();
+        PyObject *state = creaLista(estado);
+        PyObject *update = (upd) ? Py_True : Py_False;
+        PyObject *main_network = (main) ? Py_True : Py_False;
+        PyObject *resultado = llamaFuncion("get_qs", 3, state, update, main_network);
+
+        return tuplaOListaAvector(resultado);
+    }
+
+    PyObject *llamaFuncion(const char nombreFuncion[], int nargs, ...)
     {
         // punteros a la función y al resultado
         PyObject *pFunc, *presult;
@@ -66,7 +133,7 @@ namespace agent
         PyObject *funcArgs = PyTuple_New(nargs);
         for (int i = 0; i < nargs; i++)
         {
-            if (PyTuple_SetItem(funcArgs, i, PyFloat_FromDouble(va_arg(args, double))))
+            if (PyTuple_SetItem(funcArgs, i, va_arg(args, PyObject *)))
             {
                 cout << "Falló el inicializado de las variables" << endl;
                 return nullptr;
@@ -82,10 +149,11 @@ namespace agent
         return presult;
     }
 
-    void *predice(void *datos)
+    int seleccionaAccion(std::vector<double> &qs)
     {
-        string linea = str(format("predict(%1%, %2%)"));
-        return NULL;
+        int max = NEG_INFINITY;
+        int randomVal = rand() % 2;
+        return 0;
     }
 
     double punishment(int iterActual, int iterEsperada)
