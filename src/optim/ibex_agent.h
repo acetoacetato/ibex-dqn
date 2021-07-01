@@ -12,6 +12,8 @@ namespace agent
 {
 	using namespace std;
 	extern PyObject *agente;
+	extern std::vector<double> past_state;
+	extern std::vector<double> future_state;
 	PyObject *inicializaAgente(PyObject *modulo);
 
 	PyObject *importaModulo(const string agent);
@@ -22,8 +24,12 @@ namespace agent
 	std::vector<double> *tuplaOListaAvector(PyObject *in);
 
 	PyObject *creaTupla(std::vector<double> &v);
-	int seleccionaAccion(std::vector<double> &qs);
+	PyObject *creaLista(std::vector<double> &v);
+	int seleccionaAccion(std::vector<double> &qs, int actualiza, int reduce);
 	std::vector<double> *getQS(std::vector<double> &estado, int upd, int main);
+	int entrena();
+	int transfiere_pesos();
+	int guarda_agente();
 
 	double punishment(int iterActual, int iterEsperada);
 	double reward(double UB, double ub);

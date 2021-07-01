@@ -10,6 +10,7 @@
 
 #include "ibex_CellBeamSearch.h"
 #include <random>
+#include "ibex_agent.h"
 #include <iostream>
 
 using namespace std;
@@ -70,14 +71,21 @@ namespace ibex
 	// returns the cell to handled
 	Cell *CellBeamSearch::pop()
 	{
-		int randomVal = rand() % 2;
+		int accion = -1;
 
-		if (randomVal)
+		if (agent::past_state.size())
 		{
-			cout << "Se usa currentbuffer por random" << endl;
+			//dive or not dive
+			std::vector<double> *qs = agent::getQS(agent::past_state, 1, 1);
+			accion = agent::seleccionaAccion(*qs, 1, 1);
+		}
+		else
+		{
+			//dive
+			accion = 0;
 		}
 
-		if (!(currentbuffer.empty()))
+		if (accion && !(currentbuffer.empty()))
 			return currentbuffer.pop();
 		else if (!(futurebuffer.empty()))
 		{
@@ -103,6 +111,7 @@ namespace ibex
 
 	Cell *CellBeamSearch::top() const
 	{
+
 		if (!(currentbuffer.empty()))
 		{
 			return currentbuffer.top();

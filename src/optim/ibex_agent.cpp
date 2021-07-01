@@ -6,6 +6,8 @@ namespace agent
     using boost::format;
 
     PyObject *agente = nullptr;
+    std::vector<double> past_state;
+    std::vector<double> future_state;
 
     PyObject *importaModulo(const string agent)
     {
@@ -52,11 +54,11 @@ namespace agent
     // done: si estado futuro es null
     int recolectaExperiencia(std::vector<double> &is, double r, std::vector<double> &fs, int done)
     {
-        PyObject *entrada = creaTupla(is);
-        PyObject *futuro = creaTupla(fs);
+        PyObject *entrada = creaLista(is);
+        PyObject *futuro = creaLista(fs);
         PyObject *reward = PyFloat_FromDouble(r);
         PyObject *hecho = (done) ? Py_True : Py_False;
-        cout << "Esto al menos ingresa" << endl;
+        cout << "Se colecta Experiencia" << endl;
         llamaFuncion("recolecta_experiencia", 4, entrada, reward, futuro, hecho);
         return 0;
     }
@@ -149,11 +151,34 @@ namespace agent
         return presult;
     }
 
-    int seleccionaAccion(std::vector<double> &qs)
+    int seleccionaAccion(std::vector<double> &qs, int actualiza, int reduce)
     {
-        int max = NEG_INFINITY;
-        int randomVal = rand() % 2;
-        return 0;
+        PyObject *estado = creaLista(qs);
+        PyObject *upd = (actualiza) ? Py_True : Py_False;
+        PyObject *red = (reduce) ? Py_True : Py_False;
+
+        PyObject *presult = llamaFuncion("select_qs", 3, estado, upd, red);
+
+        return PyFloat_AS_DOUBLE(presult);
+    }
+
+    int entrena()
+    {
+        cout << "Se Entrena" << endl;
+        PyObject *presult = llamaFuncion("train", 0);
+        return 1;
+    }
+
+    int transfiere_pesos()
+    {
+        PyObject *presult = llamaFuncion("transfer_weights", 0);
+        return 1;
+    }
+
+    int guarda_agente()
+    {
+        PyObject *presult = llamaFuncion("save_agent", 0);
+        return 1;
     }
 
     double punishment(int iterActual, int iterEsperada)

@@ -521,8 +521,6 @@ namespace ibex
 		////////////////////////////////////////////////////////////
 
 		Cell *past_cell = nullptr;
-		std::vector<double> past_state;
-		std::vector<double> future_state;
 		double past_uplo = NEG_INFINITY;
 		int iter = 0;
 		try
@@ -542,8 +540,8 @@ namespace ibex
 				if (past_cell != nullptr)
 				{
 					cout << "pasado: " << endl;
-					past_state.clear();
-					forma_estado(past_cell, past_state, loup_finder, loup_point, uplo, n);
+					agent::past_state.clear();
+					forma_estado(past_cell, agent::past_state, loup_finder, loup_point, uplo, n);
 				}
 
 				if (trace >= 2)
@@ -621,22 +619,36 @@ namespace ibex
 
 				//FIXME: ESTADO FUTURO. Si es nulo es porque es un estado terminal.
 				Cell *future_cell = nullptr;
-				future_state.clear();
+				agent::future_state.clear();
 				if (!buffer.empty())
 				{
 					future_cell = buffer.top();
-					forma_estado(future_cell, future_state, loup_finder, loup_point, uplo, n);
+					forma_estado(future_cell, agent::future_state, loup_finder, loup_point, uplo, n);
 				}
+
+				// Si no es el momento inicial, recolecta experiencia
+				if (agent::future_state.size() && agent::past_state.size())
+					agent::recolectaExperiencia(agent::past_state, agent::reward(past_uplo, uplo), agent::future_state, 0);
 
 				// Recolecta experiencia
 				//agent::recolectaExperiencia(agente, past_state, agent::reward(past_uplo, uplo), future_state, 0);
 
 				//std::vector<double> *v =
 
-				if (agent::agente != nullptr)
-					agent::getQS(past_state, 1, 1);
 				//for (auto i = v->begin(); i != v->end(); ++i)
 				//	std::cout << *i << ' ';
+
+				//Cada 10 iteraciones se ajustan los pesos
+				if (iter % 10 == 0 && iter > 1)
+				{
+					agent::entrena();
+				}
+
+				// Cada 20 iteraciones se hace el traspaso de pesos
+				if (iter % 20 == 0 && iter > 1)
+				{
+					agent::transfiere_pesos();
+				}
 				iter++;
 			}
 
@@ -660,6 +672,8 @@ namespace ibex
 		{
 			status = TIME_OUT;
 		}
+
+		agent::guarda_agente();
 
 		/* TODO: cannot retrieve variable names here. */
 		for (int i = 0; i < (extended_COV ? n + 1 : n); i++)
