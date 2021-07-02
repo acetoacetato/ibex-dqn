@@ -506,19 +506,7 @@ namespace ibex
 
 		update_uplo();
 
-		//FIXME: Acá hay que inicializar el agente
-
-		wchar_t *program = agent::inicializaPython("./foo");
-		PyObject *agentModule = agent::importaModulo("agent");
-
-		if (agentModule == NULL)
-		{
-			cout << "Error: no se pudo importar el agente" << endl;
-		}
-
-		// Inicializa el agente
-		agent::agente = agent::inicializaAgente(agentModule);
-		////////////////////////////////////////////////////////////
+				////////////////////////////////////////////////////////////
 
 		Cell *past_cell = nullptr;
 		double past_uplo = NEG_INFINITY;

@@ -1,4 +1,5 @@
 #include "ibex.h"
+#include "../src/optim/ibex_agent.h"
 #include <iostream>
 using namespace std;
 using namespace ibex;
@@ -11,6 +12,19 @@ using namespace ibex;
 
 int main()
 {
+
+	//FIXME: Acá hay que inicializar el agente
+
+	wchar_t *program = agent::inicializaPython("./foo");
+	PyObject *agentModule = agent::importaModulo("agent");
+
+	if (agentModule == NULL)
+	{
+		cout << "Error: no se pudo importar el agente" << endl;
+	}
+
+	// Inicializa el agente
+	agent::agente = agent::inicializaAgente(agentModule);
 
 	/* Build a constrained optimization problem from the file */
 	System sys(IBEX_OPTIM_BENCHS_DIR "/medium/ex2_1_8.bch");
