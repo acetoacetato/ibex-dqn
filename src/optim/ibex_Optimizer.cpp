@@ -481,10 +481,17 @@ namespace ibex
 	void forma_estado(Cell *c, std::vector<double> &v, ibex::LoupFinder &loup_finder, ibex::IntervalVector &loup_point, double &uplo, int n)
 	{
 		double ub, lb, UB, depth;
-		pair<IntervalVector, double> p = loup_finder.find(c->box, loup_point, POS_INFINITY, c->prop);
+		try
+		{
+			pair<IntervalVector, double> p = loup_finder.find(c->box, loup_point, POS_INFINITY, c->prop);
+			ub = p.second;
+		}
+		catch (LoupFinder::NotFound &)
+		{
+			ub = POS_INFINITY;
+		};
 
-		lb = c->box[n].ub();
-		ub = p.second;
+		lb = c->box[n].lb();
 		UB = uplo;
 		depth = c->depth;
 
@@ -506,7 +513,7 @@ namespace ibex
 
 		update_uplo();
 
-				////////////////////////////////////////////////////////////
+		////////////////////////////////////////////////////////////
 
 		Cell *past_cell = nullptr;
 		double past_uplo = NEG_INFINITY;
@@ -525,9 +532,8 @@ namespace ibex
 				//			En la primera acción no hay que tomar ninguna desición,
 				//			por lo que se guardará la desición pasada para eliminarla luego
 
-				if (past_cell != nullptr)
+				if (agent::use_agent && past_cell != nullptr)
 				{
-					cout << "pasado: " << endl;
 					agent::past_state.clear();
 					forma_estado(past_cell, agent::past_state, loup_finder, loup_point, uplo, n);
 				}
@@ -542,6 +548,7 @@ namespace ibex
 					pair<Cell *, Cell *> new_cells = bsc.bisect(*c);
 					buffer.pop();
 
+					agent::generated_nodes += 2;
 					// Se eliminará la celda anterior
 					////delete c; // deletes the cell.
 					delete past_cell;
@@ -608,14 +615,14 @@ namespace ibex
 				//FIXME: ESTADO FUTURO. Si es nulo es porque es un estado terminal.
 				Cell *future_cell = nullptr;
 				agent::future_state.clear();
-				if (!buffer.empty())
+				if (agent::use_agent && !buffer.empty())
 				{
 					future_cell = buffer.top();
 					forma_estado(future_cell, agent::future_state, loup_finder, loup_point, uplo, n);
 				}
 
 				// Si no es el momento inicial, recolecta experiencia
-				if (agent::future_state.size() && agent::past_state.size())
+				if (agent::use_agent && agent::future_state.size() && agent::past_state.size())
 					agent::recolectaExperiencia(agent::past_state, agent::reward(past_uplo, uplo), agent::future_state, 0);
 
 				// Recolecta experiencia
@@ -627,22 +634,24 @@ namespace ibex
 				//	std::cout << *i << ' ';
 
 				//Cada 10 iteraciones se ajustan los pesos
-				if (iter % 10 == 0 && iter > 1)
+				if (agent::use_agent && (iter % 10 == 0) && (iter > 1))
 				{
 					agent::entrena();
 				}
 
 				// Cada 20 iteraciones se hace el traspaso de pesos
-				if (iter % 20 == 0 && iter > 1)
+				if (agent::use_agent && (iter % 20 == 0) && (iter > 1))
 				{
 					agent::transfiere_pesos();
 				}
 				iter++;
+				agent::n_iter++;
 			}
 
 			timer.stop();
 			time = timer.get_time();
 
+			agent::time_taken = time;
 			// No solution found and optimization stopped with empty buffer
 			// before the required precision is reached => means infeasible problem
 			if (uplo_of_epsboxes == NEG_INFINITY)

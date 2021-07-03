@@ -14,6 +14,16 @@ namespace agent
 	extern PyObject *agente;
 	extern std::vector<double> past_state;
 	extern std::vector<double> future_state;
+
+	extern std::vector<int> acciones_tomadas;
+	extern int n_iter;
+	extern int depth;
+	extern int generated_nodes;
+	extern double time_taken;
+
+	// 1= usar agente, 0= no usar agente
+	extern int use_agent;
+
 	PyObject *inicializaAgente(PyObject *modulo);
 
 	PyObject *importaModulo(const string agent);

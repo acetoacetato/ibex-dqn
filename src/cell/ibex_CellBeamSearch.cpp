@@ -71,18 +71,19 @@ namespace ibex
 	// returns the cell to handled
 	Cell *CellBeamSearch::pop()
 	{
-		int accion = -1;
+		int accion = 1;
 
-		if (agent::past_state.size())
+		if (agent::use_agent && agent::past_state.size())
 		{
 			//dive or not dive
 			std::vector<double> *qs = agent::getQS(agent::past_state, 1, 1);
 			accion = agent::seleccionaAccion(*qs, 1, 1);
+			agent::acciones_tomadas[accion] = agent::acciones_tomadas[accion] + 1;
 		}
 		else
 		{
 			//dive
-			accion = 0;
+			accion = 1;
 		}
 
 		if (accion && !(currentbuffer.empty()))
@@ -96,7 +97,8 @@ namespace ibex
 		}
 		return CellHeap::pop();
 	}
-	// emptying the futurebuffer : buffersize-1 cells are put into
+
+		// emptying the futurebuffer : buffersize-1 cells are put into
 	// the currentbuffer , the remaining into the global heap
 	void CellBeamSearch::move_buffers()
 	{

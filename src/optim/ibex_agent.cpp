@@ -9,6 +9,14 @@ namespace agent
     std::vector<double> past_state;
     std::vector<double> future_state;
 
+    std::vector<int> acciones_tomadas;
+    int n_iter = 0;
+    int depth = 0;
+    int generated_nodes = 0;
+    double time_taken = 0;
+
+    int use_agent = 0;
+
     PyObject *importaModulo(const string agent)
     {
         auto modulo = PyImport_ImportModule(agent.c_str());
@@ -44,6 +52,9 @@ namespace agent
 
         PyObject *pIns = PyObject_CallObject(pConstruct, funcArgs);
 
+        acciones_tomadas.push_back(0);
+        acciones_tomadas.push_back(0);
+
         return pIns;
     }
 
@@ -58,7 +69,6 @@ namespace agent
         PyObject *futuro = creaLista(fs);
         PyObject *reward = PyFloat_FromDouble(r);
         PyObject *hecho = (done) ? Py_True : Py_False;
-        cout << "Se colecta Experiencia" << endl;
         llamaFuncion("recolecta_experiencia", 4, entrada, reward, futuro, hecho);
         return 0;
     }
@@ -159,12 +169,11 @@ namespace agent
 
         PyObject *presult = llamaFuncion("select_qs", 3, estado, upd, red);
 
-        return PyFloat_AS_DOUBLE(presult);
+        return PyLong_AS_LONG(presult);
     }
 
     int entrena()
     {
-        cout << "Se Entrena" << endl;
         PyObject *presult = llamaFuncion("train", 0);
         return 1;
     }
