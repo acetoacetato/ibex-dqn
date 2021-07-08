@@ -12,6 +12,7 @@
 #include <random>
 #include "ibex_agent.h"
 #include <iostream>
+#include <time.h>
 
 using namespace std;
 
@@ -73,10 +74,12 @@ namespace ibex
 	{
 		int accion = 1;
 
+		accion = rand() % 2; // Generate a random number between 0 and 1
+
 		if (agent::use_agent && agent::past_state.size())
 		{
 			//dive or not dive
-			std::vector<double> *qs = agent::getQS(agent::past_state, 1, 1);
+			std::vector<double> *qs = agent::getQS(agent::past_state, 1, (agent::n_iter % 20 == 0) ? 1 : 0);
 			accion = agent::seleccionaAccion(*qs, 1, 1);
 			agent::acciones_tomadas[accion] = agent::acciones_tomadas[accion] + 1;
 		}
@@ -98,7 +101,7 @@ namespace ibex
 		return CellHeap::pop();
 	}
 
-		// emptying the futurebuffer : buffersize-1 cells are put into
+	// emptying the futurebuffer : buffersize-1 cells are put into
 	// the currentbuffer , the remaining into the global heap
 	void CellBeamSearch::move_buffers()
 	{

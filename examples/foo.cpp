@@ -3,6 +3,7 @@
 #include <iostream>
 #include <string.h>
 #include <fstream>
+#include <time.h>
 
 using namespace std;
 using namespace ibex;
@@ -20,7 +21,7 @@ int main(int argc, char *argv[])
 {
 
 	//FIXME: Acá hay que inicializar el agente
-
+	srand(time(NULL)); //Randomize seed initialization
 	agent::use_agent = 0;
 	cout << argv[2] << endl;
 	if (strcmp(argv[2], "true") == 0)
