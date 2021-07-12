@@ -72,22 +72,23 @@ namespace ibex
 	// returns the cell to handled
 	Cell *CellBeamSearch::pop()
 	{
-		int accion = 1;
+		int accion = 0;
 
-		accion = rand() % 2; // Generate a random number between 0 and 1
+		//accion = rand() % 2; // Generate a random number between 0 and 1
 
 		if (agent::use_agent && agent::past_state.size())
 		{
 			//dive or not dive
 			std::vector<double> *qs = agent::getQS(agent::past_state, 1, (agent::n_iter % 20 == 0) ? 1 : 0);
 			accion = agent::seleccionaAccion(*qs, 1, 1);
-			agent::acciones_tomadas[accion] = agent::acciones_tomadas[accion] + 1;
 		}
 		else
 		{
 			//dive
 			accion = 1;
 		}
+
+		agent::acciones_tomadas[accion] = agent::acciones_tomadas[accion] + 1;
 
 		if (accion && !(currentbuffer.empty()))
 			return currentbuffer.pop();
@@ -105,6 +106,7 @@ namespace ibex
 	// the currentbuffer , the remaining into the global heap
 	void CellBeamSearch::move_buffers()
 	{
+
 		while (!(futurebuffer.empty()))
 		{
 			if (currentbuffer.size() < beamsize - 1)

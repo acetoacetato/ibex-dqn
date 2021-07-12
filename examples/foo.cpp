@@ -32,10 +32,7 @@ int main(int argc, char *argv[])
 
 	std::ofstream outfile;
 
-	outfile.open("metrics-script.txt", std::ios_base::app); // append instead of overwrite
-
-	outfile << "\n\nInstancia: " << argv[2] << endl;
-	outfile << "Agente: " << argv[1] << endl;
+	outfile.open("metrics-script-" + string(argv[2]) + ".csv", std::ios_base::app); // append instead of overwrite
 
 	std::string problem(argv[1]);
 
@@ -63,10 +60,15 @@ int main(int argc, char *argv[])
 	cout << "interval for the minimum: " << Interval(o.get_uplo(), o.get_loup()) << endl;
 	cout << "minimizer: " << o.get_loup_point() << endl;
 
-	outfile << "\tTime taken: " << agent::time_taken << endl;
-	outfile << "\tGenerated nodes: " << agent::generated_nodes << endl;
-	outfile << "\tIterations: " << agent::n_iter << endl;
-	outfile << "\tAccion 0:" << agent::acciones_tomadas[0] << endl;
-	outfile << "\tAccion 1:" << agent::acciones_tomadas[1] << endl;
+	// Escribir línea de archivo
+	//   Instancia;usa agente(true/false);time taken;generated nodes;iterations;accion0;accion1
+
+	outfile << argv[1];
+	outfile << ";" << argv[2];
+	outfile << ";" << agent::time_taken;
+	outfile << ";" << agent::generated_nodes;
+	outfile << ";" << agent::n_iter;
+	outfile << ";" << agent::acciones_tomadas[0];
+	outfile << ";" << agent::acciones_tomadas[1] << endl;
 	return 0;
 }
