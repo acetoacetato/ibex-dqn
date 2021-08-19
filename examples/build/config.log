@@ -1,0 +1,10 @@
+# project  configured on Wed Jun 16 03:02:44 2021 by
+# waf 2.0.12 (abi 20, python 20711f0 on linux2)
+# using ../waf configure
+#
+----------------------------------------
+Setting top to
+/home/alen/ibex-lib/examples
+----------------------------------------
+Setting out to
+/home/alen/ibex-lib/examples/build

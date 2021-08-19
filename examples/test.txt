@@ -1,0 +1,4283 @@
+depth:0
+lb:76292.1
+ub:16431
+UB improved:16431
+Hola 
+Se usa currentbuffer por random
+depth:1
+lb:432.1
+ub:16431
+depth:1
+lb:16431
+ub:16431
+Hola 
+depth:2
+lb:432.1
+ub:16431
+Hola 
+Se usa currentbuffer por random
+depth:3
+lb:432.1
+ub:16431
+Hola 
+Se usa currentbuffer por random
+depth:4
+lb:-4623.28
+ub:16431
+depth:4
+lb:432.1
+ub:16431
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:5
+lb:432.1
+ub:16431
+Hola 
+depth:6
+lb:432.1
+ub:16431
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:2
+lb:8431.55
+ub:16431
+depth:2
+lb:16431
+ub:16431
+UB improved:16431
+Hola 
+Se usa currentbuffer por random
+depth:3
+lb:8431.55
+ub:16431
+depth:3
+lb:8431.55
+ub:24751.1
+Hola 
+depth:4
+lb:8431.55
+ub:16431
+depth:4
+lb:8431.55
+ub:25815.8
+Hola 
+Se usa currentbuffer por random
+depth:5
+lb:8431.55
+ub:25815.8
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:5
+lb:8431.55
+ub:16431
+depth:5
+lb:8431.55
+ub:21235
+Hola 
+Se usa currentbuffer por random
+depth:6
+lb:8431.55
+ub:21235
+Hola 
+depth:7
+lb:8431.55
+ub:21235
+Hola 
+Hola 
+depth:6
+lb:8431.55
+ub:16431
+depth:6
+lb:8431.55
+ub:23994
+Hola 
+depth:7
+lb:8431.55
+ub:16431
+depth:7
+lb:8431.55
+ub:20911
+Hola 
+depth:8
+lb:8431.55
+ub:20911
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:8
+lb:8431.55
+ub:16431
+Hola 
+Se usa currentbuffer por random
+depth:9
+lb:4431.83
+ub:16431
+depth:9
+lb:8431.55
+ub:16431
+Hola 
+Se usa currentbuffer por random
+depth:10
+lb:4431.83
+ub:16431
+Hola 
+depth:11
+lb:4431.83
+ub:16431
+Hola 
+depth:12
+lb:4431.83
+ub:16431
+Hola 
+depth:13
+lb:4431.83
+ub:16431
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:10
+lb:8431.55
+ub:16431
+Hola 
+depth:11
+lb:8431.55
+ub:16431
+depth:11
+lb:8431.55
+ub:22166
+Hola 
+Hola 
+depth:12
+lb:8431.55
+ub:16431
+depth:12
+lb:8431.55
+ub:19707
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:13
+lb:8431.55
+ub:16431
+Hola 
+Se usa currentbuffer por random
+depth:14
+lb:8431.55
+ub:16431
+Hola 
+depth:15
+lb:8431.55
+ub:16431
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:3
+lb:16431
+ub:16431
+depth:3
+lb:16431
+ub:24751.1
+Hola 
+Se usa currentbuffer por random
+depth:4
+lb:16431
+ub:24751.1
+depth:4
+lb:16431
+ub:29215
+Hola 
+Se usa currentbuffer por random
+depth:5
+lb:16431
+ub:24751.1
+Hola 
+Se usa currentbuffer por random
+depth:6
+lb:12431.3
+ub:24751.1
+depth:6
+lb:16431
+ub:24751.1
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:4
+lb:16431
+ub:16431
+depth:4
+lb:16431
+ub:25815.8
+Hola 
+Se usa currentbuffer por random
+depth:5
+lb:16431
+ub:25815.8
+depth:5
+lb:16431
+ub:30135.8
+Hola 
+depth:6
+lb:16431
+ub:25815.8
+depth:6
+lb:16431
+ub:27894.8
+Hola 
+depth:7
+lb:12431.3
+ub:25653.8
+depth:7
+lb:16431
+ub:25815.8
+Hola 
+Se usa currentbuffer por random
+depth:8
+lb:12431.3
+ub:25653.8
+Hola 
+depth:9
+lb:12431.3
+ub:25653.8
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:5
+lb:16431
+ub:16431
+depth:5
+lb:16431
+ub:21235
+Hola 
+Se usa currentbuffer por random
+depth:6
+lb:16431
+ub:21235
+depth:6
+lb:16431
+ub:27766
+Hola 
+depth:7
+lb:16431
+ub:21235
+depth:7
+lb:16431
+ub:27296.1
+Hola 
+depth:8
+lb:16431
+ub:27296.1
+Hola 
+Se usa currentbuffer por random
+depth:9
+lb:16431
+ub:27296.1
+Hola 
+depth:10
+lb:16431
+ub:27296.1
+Hola 
+Hola 
+depth:8
+lb:16431
+ub:21235
+depth:8
+lb:16431
+ub:27608
+Hola 
+Se usa currentbuffer por random
+depth:9
+lb:16431
+ub:21235
+depth:9
+lb:16431
+ub:26936.1
+Hola 
+Se usa currentbuffer por random
+depth:10
+lb:12431.3
+ub:21235
+depth:10
+lb:16431
+ub:21235
+Hola 
+Se usa currentbuffer por random
+depth:11
+lb:12431.3
+ub:21235
+Hola 
+depth:12
+lb:12431.3
+ub:21235
+Hola 
+Se usa currentbuffer por random
+depth:13
+lb:12431.3
+ub:21235
+Hola 
+depth:14
+lb:12431.3
+ub:21235.1
+Hola 
+Se usa currentbuffer por random
+depth:15
+lb:12431.3
+ub:21235
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:6
+lb:16431
+ub:16431
+depth:6
+lb:16431
+ub:23994
+Hola 
+Se usa currentbuffer por random
+depth:7
+lb:12431.3
+ub:23994
+depth:7
+lb:16431
+ub:23994
+Hola 
+Se usa currentbuffer por random
+depth:8
+lb:12431.3
+ub:23994
+Hola 
+depth:9
+lb:12431.3
+ub:23994
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:7
+lb:16431
+ub:16431
+depth:7
+lb:16431
+ub:20911
+Hola 
+Se usa currentbuffer por random
+depth:8
+lb:16431
+ub:20911
+depth:8
+lb:16431
+ub:29056.1
+Hola 
+depth:9
+lb:16431
+ub:20911
+depth:9
+lb:16431
+ub:24984
+Hola 
+Se usa currentbuffer por random
+depth:10
+lb:16431
+ub:24868
+Hola 
+depth:11
+lb:16431
+ub:24868
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:10
+lb:16431
+ub:20911
+depth:10
+lb:16431
+ub:24428.1
+Hola 
+depth:11
+lb:12431.3
+ub:23837
+depth:11
+lb:16431
+ub:24428.1
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:11
+lb:12431.3
+ub:20911
+depth:11
+lb:16431
+ub:20911
+Hola 
+Hola 
+depth:8
+lb:16431
+ub:16431
+depth:8
+lb:16431
+ub:23871.1
+Hola 
+depth:9
+lb:12431.3
+ub:23871.1
+depth:9
+lb:16431
+ub:23871.1
+Hola 
+depth:10
+lb:12431.3
+ub:23871
+Hola 
+Se usa currentbuffer por random
+depth:11
+lb:12431.3
+ub:23871
+Hola 
+Se usa currentbuffer por random
+depth:12
+lb:12431.3
+ub:23871
+Hola 
+depth:13
+lb:12431.3
+ub:23871
+Hola 
+Se usa currentbuffer por random
+depth:14
+lb:12431.3
+ub:23871
+Hola 
+depth:15
+lb:12431.3
+ub:23871
+Hola 
+Hola 
+depth:9
+lb:12431.3
+ub:16431
+depth:9
+lb:16431
+ub:16431
+Hola 
+depth:10
+lb:12431.3
+ub:16431
+depth:10
+lb:12431.3
+ub:20388
+Hola 
+Se usa currentbuffer por random
+depth:11
+lb:12431.3
+ub:20388
+Hola 
+depth:12
+lb:12431.3
+ub:20388
+Hola 
+depth:13
+lb:12431.3
+ub:20388
+depth:13
+lb:12431.3
+ub:22996
+Hola 
+depth:14
+lb:12431.3
+ub:22996
+Hola 
+depth:15
+lb:12431.3
+ub:22996
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:14
+lb:12431.3
+ub:20388
+Hola 
+depth:15
+lb:12431.3
+ub:20388
+depth:15
+lb:12431.3
+ub:22905
+Hola 
+Hola 
+depth:16
+lb:12431.3
+ub:20388
+Hola 
+Se usa currentbuffer por random
+depth:17
+lb:12431.3
+ub:20388
+Hola 
+Se usa currentbuffer por random
+depth:18
+lb:12431.3
+ub:20388
+Hola 
+Se usa currentbuffer por random
+depth:19
+lb:12431.3
+ub:20388
+Hola 
+depth:20
+lb:12431.3
+ub:20388
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:11
+lb:12431.3
+ub:16431
+depth:11
+lb:12431.3
+ub:22166
+Hola 
+depth:12
+lb:12431.3
+ub:22166
+Hola 
+depth:13
+lb:12431.3
+ub:22166
+Hola 
+Se usa currentbuffer por random
+depth:14
+lb:12431.3
+ub:22166
+Hola 
+depth:15
+lb:12431.3
+ub:22166
+depth:15
+lb:12431.3
+ub:23702
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:16
+lb:12431.3
+ub:22166
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:12
+lb:12431.3
+ub:16431
+depth:12
+lb:12431.3
+ub:19707
+Hola 
+depth:13
+lb:12431.3
+ub:19707
+Hola 
+Se usa currentbuffer por random
+depth:14
+lb:12431.3
+ub:19707
+Hola 
+depth:15
+lb:12431.3
+ub:23727
+depth:15
+lb:12431.3
+ub:19707
+Hola 
+Se usa currentbuffer por random
+depth:16
+lb:12431.3
+ub:19707
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:13
+lb:12431.3
+ub:16431
+depth:13
+lb:12431.3
+ub:21457
+Hola 
+Se usa currentbuffer por random
+depth:14
+lb:12431.3
+ub:21457
+Hola 
+Se usa currentbuffer por random
+depth:15
+lb:12431.3
+ub:21457
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:14
+lb:12431.3
+ub:16431
+depth:14
+lb:12431.3
+ub:19479
+Hola 
+Se usa currentbuffer por random
+depth:15
+lb:12431.3
+ub:23039
+depth:15
+lb:12431.3
+ub:19479
+Hola 
+Se usa currentbuffer por random
+depth:16
+lb:12431.3
+ub:19479
+Hola 
+Se usa currentbuffer por random
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:15
+lb:12431.3
+ub:16431
+depth:15
+lb:12431.3
+ub:18983
+Hola 
+Se usa currentbuffer por random
+depth:16
+lb:12431.3
+ub:18983
+depth:16
+lb:12431.3
+ub:21314
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:17
+lb:12431.3
+ub:21823
+depth:17
+lb:12431.3
+ub:18983
+Hola 
+depth:18
+lb:12431.3
+ub:18983
+Hola 
+Se usa currentbuffer por random
+depth:19
+lb:12431.3
+ub:18983
+Hola 
+Se usa currentbuffer por random
+depth:20
+lb:12431.3
+ub:18983
+Hola 
+depth:21
+lb:12431.3
+ub:18983
+Hola 
+depth:22
+lb:12431.3
+ub:18983
+Hola 
+Se usa currentbuffer por random
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:16
+lb:12431.3
+ub:18951
+depth:16
+lb:12431.3
+ub:16431
+Hola 
+Se usa currentbuffer por random
+depth:17
+lb:12431.3
+ub:16431
+Hola 
+Se usa currentbuffer por random
+depth:18
+lb:12431.3
+ub:16431
+Hola 
+depth:19
+lb:12431.3
+ub:16431
+depth:19
+lb:12431.3
+ub:19356
+Hola 
+depth:20
+lb:12431.3
+ub:19356
+Hola 
+depth:21
+lb:12431.3
+ub:19356
+Hola 
+Se usa currentbuffer por random
+depth:22
+lb:12431.3
+ub:19356
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:20
+lb:12431.3
+ub:16431
+depth:20
+lb:12431.3
+ub:19551
+Hola 
+depth:21
+lb:10431.5
+ub:16431
+depth:21
+lb:12431.3
+ub:16431
+Hola 
+Se usa currentbuffer por random
+depth:22
+lb:10431.5
+ub:16431
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:17
+lb:12431.3
+ub:18951
+Hola 
+depth:18
+lb:12431.3
+ub:18951
+Hola 
+Se usa currentbuffer por random
+depth:19
+lb:10431.5
+ub:18951
+depth:19
+lb:12431.3
+ub:18951
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:7
+lb:16431
+ub:27894.8
+Hola 
+Se usa currentbuffer por random
+Hola 
+Hola 
+depth:9
+lb:16431
+ub:29056.1
+Hola 
+depth:10
+lb:16431
+ub:29056.1
+Hola 
+Se usa currentbuffer por random
+depth:11
+lb:16431
+ub:29056.1
+Hola 
+depth:12
+lb:16431
+ub:29056.1
+Hola 
+Se usa currentbuffer por random
+depth:13
+lb:16431
+ub:29056.1
+Hola 
+depth:14
+lb:16431
+ub:29692
+Hola 
+Hola 
+depth:10
+lb:16431
+ub:26936.1
+Hola 
+depth:11
+lb:16431
+ub:25709.1
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:21
+lb:12431.3
+ub:19551
+Hola 
+depth:22
+lb:12431.3
+ub:19551
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:22
+lb:12431.3
+ub:16431
+Hola 
+depth:23
+lb:12431.3
+ub:17012.5
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:20
+lb:12431.3
+ub:18951
+Hola 
+Se usa currentbuffer por random
+depth:21
+lb:12431.3
+ub:18951
+Hola 
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:7
+lb:16431
+ub:24751.1
+Hola 
+depth:8
+lb:16431
+ub:24751.1
+Hola 
+Se usa currentbuffer por random
+depth:9
+lb:16431
+ub:24751.1
+Hola 
+depth:10
+lb:16431
+ub:24751.1
+depth:10
+lb:16431
+ub:27623.1
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:11
+lb:16431
+ub:24751
+Hola 
+Se usa currentbuffer por random
+depth:12
+lb:16431
+ub:24751
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:12
+lb:16431
+ub:24428
+Hola 
+depth:13
+lb:16431
+ub:24428
+Hola 
+depth:14
+lb:16431
+ub:24428
+Hola 
+Se usa currentbuffer por random
+depth:15
+lb:16431
+ub:23837
+Hola 
+Se usa currentbuffer por random
+depth:16
+lb:16431
+ub:23837
+Hola 
+depth:17
+lb:16431
+ub:23837
+Hola 
+Se usa currentbuffer por random
+depth:18
+lb:16431
+ub:23837
+Hola 
+depth:19
+lb:16431
+ub:23837
+Hola 
+depth:20
+lb:16431
+ub:23837
+Hola 
+Se usa currentbuffer por random
+depth:21
+lb:16431
+ub:23837
+Hola 
+Se usa currentbuffer por random
+depth:22
+lb:16431
+ub:23858.3
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:8
+lb:16431
+ub:23994
+Hola 
+depth:9
+lb:16431
+ub:23994
+Hola 
+depth:10
+lb:16431
+ub:28122.1
+depth:10
+lb:16431
+ub:23994
+Hola 
+depth:11
+lb:16431
+ub:23745
+depth:11
+lb:16431
+ub:25665
+Hola 
+Hola 
+depth:12
+lb:16431
+ub:23745
+Hola 
+depth:13
+lb:16431
+ub:23745
+Hola 
+Se usa currentbuffer por random
+depth:14
+lb:16431
+ub:23745
+Hola 
+Se usa currentbuffer por random
+depth:15
+lb:16431
+ub:23745
+Hola 
+Se usa currentbuffer por random
+depth:16
+lb:16431
+ub:23745
+Hola 
+depth:17
+lb:16431
+ub:23745
+Hola 
+depth:18
+lb:16431
+ub:23745
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:10
+lb:16431
+ub:16431
+depth:10
+lb:16431
+ub:20388
+Hola 
+Se usa currentbuffer por random
+depth:11
+lb:16431
+ub:20388
+depth:11
+lb:16431
+ub:27092.1
+Hola 
+depth:12
+lb:16431
+ub:27092.1
+Hola 
+Se usa currentbuffer por random
+depth:13
+lb:16431
+ub:27092.1
+Hola 
+depth:14
+lb:16431
+ub:27092.1
+Hola 
+Se usa currentbuffer por random
+depth:15
+lb:16431
+ub:27092.1
+depth:15
+lb:16431
+ub:27386.1
+Hola 
+Hola 
+depth:12
+lb:16431
+ub:20388
+depth:12
+lb:16431
+ub:24473
+Hola 
+Se usa currentbuffer por random
+depth:13
+lb:16431
+ub:24473
+Hola 
+Se usa currentbuffer por random
+depth:14
+lb:16431
+ub:24473
+Hola 
+depth:15
+lb:16431
+ub:24473
+depth:15
+lb:16431
+ub:26009
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:16
+lb:16431
+ub:24473
+Hola 
+depth:17
+lb:16431
+ub:24473
+Hola 
+depth:18
+lb:16431
+ub:24473
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:8
+lb:16431
+ub:25815.8
+depth:8
+lb:16431
+ub:26517.8
+Hola 
+Se usa currentbuffer por random
+depth:9
+lb:16431
+ub:26517.8
+Hola 
+Se usa currentbuffer por random
+depth:10
+lb:16431
+ub:26517.8
+Hola 
+depth:11
+lb:16431
+ub:26517.8
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:9
+lb:16431
+ub:25815.8
+Hola 
+depth:10
+lb:16431
+ub:25815.8
+depth:10
+lb:16431
+ub:27675.6
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:11
+lb:16431
+ub:28920.8
+depth:11
+lb:16431
+ub:25815.8
+Hola 
+Se usa currentbuffer por random
+depth:12
+lb:16431
+ub:25653.8
+Hola 
+depth:13
+lb:16431
+ub:25653.8
+Hola 
+depth:14
+lb:16431
+ub:25653.8
+Hola 
+Hola 
+depth:12
+lb:16431
+ub:28920.8
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:13
+lb:16431
+ub:20388
+depth:13
+lb:16431
+ub:22996
+Hola 
+Se usa currentbuffer por random
+depth:14
+lb:16431
+ub:22996
+depth:14
+lb:16431
+ub:27689.5
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:15
+lb:16431
+ub:22996
+depth:15
+lb:16431
+ub:25927
+Hola 
+depth:16
+lb:16431
+ub:25927
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:16
+lb:16431
+ub:22996
+Hola 
+depth:17
+lb:16431
+ub:22996
+Hola 
+depth:18
+lb:16431
+ub:22996
+Hola 
+depth:19
+lb:16431
+ub:22996
+Hola 
+depth:20
+lb:16431
+ub:22996
+Hola 
+depth:21
+lb:16431
+ub:22996
+Hola 
+Se usa currentbuffer por random
+depth:22
+lb:16431
+ub:22996
+Hola 
+depth:23
+lb:16431
+ub:22996
+Hola 
+depth:24
+lb:16431
+ub:22996
+Hola 
+Hola 
+depth:14
+lb:16431
+ub:20388
+depth:14
+lb:16431
+ub:24771.4
+Hola 
+depth:15
+lb:16431
+ub:24771.4
+depth:15
+lb:16431
+ub:26424.4
+Hola 
+Se usa currentbuffer por random
+depth:16
+lb:16431
+ub:26424.4
+Hola 
+depth:17
+lb:16431
+ub:26424.4
+Hola 
+Hola 
+depth:16
+lb:16431
+ub:24771.4
+Hola 
+depth:17
+lb:16431
+ub:24771.4
+Hola 
+depth:18
+lb:14431.2
+ub:24771.4
+depth:18
+lb:16431
+ub:24771.4
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:15
+lb:16431
+ub:20388
+depth:15
+lb:16431
+ub:22905
+Hola 
+depth:16
+lb:16431
+ub:22905
+depth:16
+lb:16431
+ub:25737
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:17
+lb:16431
+ub:22905
+Hola 
+Se usa currentbuffer por random
+depth:18
+lb:16431
+ub:22905
+Hola 
+Se usa currentbuffer por random
+depth:19
+lb:16431
+ub:22905
+Hola 
+Se usa currentbuffer por random
+depth:20
+lb:16431
+ub:22905
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:12
+lb:16431
+ub:20911
+Hola 
+depth:13
+lb:16431
+ub:20911
+depth:13
+lb:16431
+ub:23467
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:14
+lb:16431
+ub:20911
+Hola 
+Se usa currentbuffer por random
+depth:15
+lb:16431
+ub:24519
+depth:15
+lb:16431
+ub:20911
+Hola 
+Se usa currentbuffer por random
+depth:16
+lb:16431
+ub:20911
+Hola 
+Se usa currentbuffer por random
+depth:17
+lb:16431
+ub:20911
+Hola 
+depth:18
+lb:16431
+ub:20911
+Hola 
+Se usa currentbuffer por random
+depth:19
+lb:16431
+ub:20911
+Hola 
+Se usa currentbuffer por random
+depth:20
+lb:16431
+ub:20911
+depth:20
+lb:16431
+ub:22579
+Hola 
+Se usa currentbuffer por random
+depth:21
+lb:14431.2
+ub:22722
+depth:21
+lb:16431
+ub:22579
+Hola 
+Hola 
+depth:21
+lb:16431
+ub:20911
+Hola 
+Se usa currentbuffer por random
+depth:22
+lb:16431
+ub:20911
+Hola 
+depth:23
+lb:16431
+ub:20911
+Hola 
+Hola 
+depth:16
+lb:16431
+ub:24519
+Hola 
+Hola 
+depth:16
+lb:16431
+ub:21858
+depth:16
+lb:16431
+ub:20388
+Hola 
+depth:17
+lb:16431
+ub:20388
+depth:17
+lb:16431
+ub:23788
+Hola 
+depth:18
+lb:16431
+ub:23788
+Hola 
+depth:19
+lb:16431
+ub:23788
+Hola 
+depth:20
+lb:16431
+ub:23788
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:18
+lb:16431
+ub:20388
+depth:18
+lb:16431
+ub:23508
+Hola 
+depth:19
+lb:16431
+ub:23508
+depth:19
+lb:16431
+ub:23592
+Hola 
+Se usa currentbuffer por random
+depth:20
+lb:16431
+ub:23592
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:20
+lb:14431.2
+ub:23508
+depth:20
+lb:16431
+ub:23508
+Hola 
+Hola 
+depth:19
+lb:14431.2
+ub:20388
+depth:19
+lb:16431
+ub:20388
+Hola 
+depth:20
+lb:14431.2
+ub:20388
+depth:20
+lb:14431.2
+ub:22113
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:21
+lb:14431.2
+ub:21204
+Hola 
+depth:22
+lb:14431.2
+ub:21204
+Hola 
+depth:23
+lb:14431.2
+ub:21204
+Hola 
+depth:24
+lb:14431.2
+ub:21204
+Hola 
+Se usa currentbuffer por random
+depth:25
+lb:14431.2
+ub:21204
+Hola 
+depth:26
+lb:14431.2
+ub:21204
+Hola 
+Se usa currentbuffer por random
+depth:27
+lb:14431.2
+ub:21204
+Hola 
+Se usa currentbuffer por random
+depth:28
+lb:14431.2
+ub:21204
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:10
+lb:16431
+ub:23871.1
+depth:10
+lb:16431
+ub:27441
+Hola 
+Se usa currentbuffer por random
+depth:11
+lb:16431
+ub:27441
+Hola 
+Se usa currentbuffer por random
+depth:12
+lb:16431
+ub:27441
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:11
+lb:16431
+ub:23871.1
+Hola 
+depth:12
+lb:16431
+ub:23871.1
+depth:12
+lb:16431
+ub:28348
+Hola 
+Se usa currentbuffer por random
+depth:13
+lb:16431
+ub:28348
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:13
+lb:16431
+ub:23871.1
+depth:13
+lb:16431
+ub:27639.1
+Hola 
+Se usa currentbuffer por random
+depth:14
+lb:16431
+ub:27639.1
+Hola 
+Se usa currentbuffer por random
+depth:15
+lb:16431
+ub:29228
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:14
+lb:16431
+ub:25212
+depth:14
+lb:16431
+ub:27786
+Hola 
+depth:15
+lb:16431
+ub:27786
+Hola 
+Hola 
+depth:15
+lb:16431
+ub:25212
+depth:15
+lb:16431
+ub:28332
+Hola 
+depth:16
+lb:16431
+ub:26016
+Hola 
+Hola 
+depth:16
+lb:16431
+ub:23871
+depth:16
+lb:16431
+ub:25047
+Hola 
+Se usa currentbuffer por random
+depth:17
+lb:16431
+ub:25047
+Hola 
+depth:18
+lb:16431
+ub:25047
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:17
+lb:16431
+ub:23907.4
+Hola 
+Hola 
+depth:17
+lb:16431
+ub:21858
+Hola 
+depth:18
+lb:16431
+ub:21858
+Hola 
+depth:19
+lb:16431
+ub:21858
+Hola 
+depth:20
+lb:16431
+ub:21858
+Hola 
+Se usa currentbuffer por random
+depth:21
+lb:16431
+ub:21858
+Hola 
+Se usa currentbuffer por random
+depth:22
+lb:16431
+ub:21858
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:11
+lb:16431
+ub:16431
+depth:11
+lb:16431
+ub:22166
+Hola 
+depth:12
+lb:16431
+ub:22166
+depth:12
+lb:16431
+ub:23757
+Hola 
+depth:13
+lb:16431
+ub:23757
+Hola 
+depth:14
+lb:16431
+ub:23757
+Hola 
+Se usa currentbuffer por random
+depth:15
+lb:16431
+ub:26889
+depth:15
+lb:16431
+ub:23757
+Hola 
+depth:16
+lb:16431
+ub:23757
+Hola 
+depth:17
+lb:16431
+ub:23757
+Hola 
+depth:18
+lb:16431
+ub:23757
+Hola 
+depth:19
+lb:16431
+ub:23757
+Hola 
+Se usa currentbuffer por random
+depth:20
+lb:16431
+ub:23757
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:13
+lb:16431
+ub:22166
+depth:13
+lb:16431
+ub:25654.5
+Hola 
+Hola 
+depth:14
+lb:16431
+ub:22166
+depth:14
+lb:16431
+ub:24878
+Hola 
+Se usa currentbuffer por random
+depth:15
+lb:16431
+ub:24878
+Hola 
+depth:16
+lb:16431
+ub:24878
+Hola 
+depth:17
+lb:16431
+ub:24878
+Hola 
+Se usa currentbuffer por random
+depth:18
+lb:16431
+ub:24878
+Hola 
+Se usa currentbuffer por random
+depth:19
+lb:16431
+ub:24878
+Hola 
+Se usa currentbuffer por random
+depth:20
+lb:16431
+ub:24878
+Hola 
+depth:21
+lb:16431
+ub:24878
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:15
+lb:16431
+ub:22166
+depth:15
+lb:16431
+ub:23702
+Hola 
+depth:16
+lb:16431
+ub:23702
+Hola 
+depth:17
+lb:16431
+ub:23702
+Hola 
+Se usa currentbuffer por random
+depth:18
+lb:16431
+ub:23702
+Hola 
+depth:19
+lb:16431
+ub:23702
+Hola 
+Se usa currentbuffer por random
+depth:20
+lb:16431
+ub:23702
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:16
+lb:16431
+ub:22166
+depth:16
+lb:16431
+ub:23764
+Hola 
+Se usa currentbuffer por random
+depth:17
+lb:16431
+ub:23764
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:17
+lb:16431
+ub:25055
+depth:17
+lb:16431
+ub:22166
+Hola 
+Se usa currentbuffer por random
+depth:18
+lb:16431
+ub:22166
+depth:18
+lb:16431
+ub:23606
+Hola 
+depth:19
+lb:16431
+ub:23606
+Hola 
+depth:20
+lb:16431
+ub:23606
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:19
+lb:14431.2
+ub:22166
+depth:19
+lb:16431
+ub:22166
+Hola 
+depth:20
+lb:14431.2
+ub:22166
+Hola 
+depth:21
+lb:14431.2
+ub:22166
+Hola 
+depth:22
+lb:14431.2
+ub:21908
+Hola 
+Hola 
+Se usa currentbuffer por random
+Hola 
+Hola 
+depth:12
+lb:16431
+ub:16431
+depth:12
+lb:16431
+ub:19707
+Hola 
+depth:13
+lb:16431
+ub:19707
+depth:13
+lb:16431
+ub:23271
+Hola 
+Se usa currentbuffer por random
+depth:14
+lb:16431
+ub:23271
+Hola 
+depth:15
+lb:16431
+ub:23271
+Hola 
+Hola 
+depth:14
+lb:16431
+ub:19707
+depth:14
+lb:16431
+ub:22860
+Hola 
+depth:15
+lb:16431
+ub:22381
+Hola 
+depth:16
+lb:16431
+ub:22381
+Hola 
+depth:17
+lb:16431
+ub:22381
+Hola 
+Se usa currentbuffer por random
+depth:18
+lb:16431
+ub:22381
+Hola 
+depth:19
+lb:16431
+ub:22381
+Hola 
+Se usa currentbuffer por random
+depth:20
+lb:16431
+ub:22381
+Hola 
+Se usa currentbuffer por random
+depth:21
+lb:16431
+ub:22381
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:15
+lb:16431
+ub:23727
+depth:15
+lb:16431
+ub:19707
+Hola 
+depth:16
+lb:16431
+ub:19707
+Hola 
+depth:17
+lb:16431
+ub:19707
+depth:17
+lb:16431
+ub:23029.2
+Hola 
+Se usa currentbuffer por random
+depth:18
+lb:16431
+ub:23029.2
+Hola 
+depth:19
+lb:16431
+ub:23029.2
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:18
+lb:16431
+ub:19707
+Hola 
+depth:19
+lb:16431
+ub:19707
+Hola 
+depth:20
+lb:14431.2
+ub:19707
+depth:20
+lb:16431
+ub:19707
+Hola 
+depth:21
+lb:14431.2
+ub:19707
+Hola 
+Se usa currentbuffer por random
+depth:22
+lb:14431.2
+ub:19554
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:11
+lb:16431
+ub:21235
+depth:11
+lb:16431
+ub:26310
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:12
+lb:16431
+ub:21235
+depth:12
+lb:16431
+ub:24418
+Hola 
+Se usa currentbuffer por random
+depth:13
+lb:16431
+ub:24418
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:13
+lb:16431
+ub:21235
+depth:13
+lb:16431
+ub:26275.5
+Hola 
+depth:14
+lb:16431
+ub:26275.5
+Hola 
+depth:15
+lb:16431
+ub:26275.5
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:14
+lb:16431
+ub:21235.1
+Hola 
+depth:15
+lb:16431
+ub:21235
+Hola 
+Se usa currentbuffer por random
+depth:16
+lb:16431
+ub:21235
+Hola 
+depth:17
+lb:16431
+ub:21235
+Hola 
+Se usa currentbuffer por random
+depth:18
+lb:16431
+ub:21235
+depth:18
+lb:16431
+ub:23841
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:19
+lb:16431
+ub:21235
+Hola 
+depth:20
+lb:16431
+ub:21235
+Hola 
+depth:21
+lb:16431
+ub:21235
+Hola 
+Se usa currentbuffer por random
+depth:22
+lb:16431
+ub:21235
+Hola 
+depth:23
+lb:16431
+ub:21235
+Hola 
+depth:24
+lb:16431
+ub:21235
+Hola 
+depth:25
+lb:16431
+ub:21235
+Hola 
+Se usa currentbuffer por random
+depth:26
+lb:16431
+ub:21235
+Hola 
+Hola 
+depth:16
+lb:16431
+ub:23727
+Hola 
+depth:17
+lb:14431.2
+ub:23727
+Hola 
+Hola 
+depth:13
+lb:16431
+ub:16431
+depth:13
+lb:16431
+ub:21457
+Hola 
+Se usa currentbuffer por random
+depth:14
+lb:16431
+ub:21457
+depth:14
+lb:16431
+ub:24985
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:15
+lb:16431
+ub:24817.9
+depth:15
+lb:16431
+ub:21457
+Hola 
+Se usa currentbuffer por random
+depth:16
+lb:16431
+ub:21457
+Hola 
+depth:17
+lb:16431
+ub:21457
+Hola 
+depth:18
+lb:16431
+ub:21457
+Hola 
+Se usa currentbuffer por random
+depth:19
+lb:16431
+ub:21457
+Hola 
+depth:20
+lb:16431
+ub:21457
+Hola 
+Se usa currentbuffer por random
+depth:21
+lb:16431
+ub:21457
+Hola 
+Se usa currentbuffer por random
+depth:22
+lb:16431
+ub:21457
+Hola 
+depth:23
+lb:16431
+ub:21457
+Hola 
+Se usa currentbuffer por random
+depth:24
+lb:16431
+ub:21457
+Hola 
+Se usa currentbuffer por random
+depth:25
+lb:16431
+ub:21457
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:16
+lb:16431
+ub:24817.9
+Hola 
+Se usa currentbuffer por random
+depth:17
+lb:16431
+ub:24817.9
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:14
+lb:16431
+ub:16431
+depth:14
+lb:16431
+ub:19479
+Hola 
+Se usa currentbuffer por random
+depth:15
+lb:16431
+ub:23039
+depth:15
+lb:16431
+ub:19479
+Hola 
+depth:16
+lb:16431
+ub:19479
+depth:16
+lb:16431
+ub:22335
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:17
+lb:16431
+ub:19479
+depth:17
+lb:16431
+ub:20079
+Hola 
+depth:18
+lb:16431
+ub:20079
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:18
+lb:16431
+ub:19479
+Hola 
+Se usa currentbuffer por random
+depth:19
+lb:16431
+ub:19479
+Hola 
+Se usa currentbuffer por random
+depth:20
+lb:16431
+ub:19479
+depth:20
+lb:16431
+ub:21535
+Hola 
+Se usa currentbuffer por random
+depth:21
+lb:16431
+ub:21535
+Hola 
+Hola 
+depth:21
+lb:16431
+ub:19479
+Hola 
+Se usa currentbuffer por random
+depth:22
+lb:14431.2
+ub:19479
+depth:22
+lb:16431
+ub:19479
+Hola 
+Se usa currentbuffer por random
+depth:23
+lb:14431.2
+ub:19479
+Hola 
+Se usa currentbuffer por random
+depth:24
+lb:14431.2
+ub:19479
+Hola 
+Se usa currentbuffer por random
+depth:25
+lb:14431.2
+ub:19479
+Hola 
+Hola 
+depth:16
+lb:16431
+ub:23039
+Hola 
+Se usa currentbuffer por random
+depth:17
+lb:16431
+ub:23039
+Hola 
+Se usa currentbuffer por random
+depth:18
+lb:16431
+ub:23039
+Hola 
+depth:19
+lb:16431
+ub:23039
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:15
+lb:16431
+ub:16431
+depth:15
+lb:16431
+ub:18983
+Hola 
+depth:16
+lb:16431
+ub:18983
+depth:16
+lb:16431
+ub:21314
+Hola 
+depth:17
+lb:16431
+ub:21314
+Hola 
+Se usa currentbuffer por random
+depth:18
+lb:16431
+ub:21314
+Hola 
+Se usa currentbuffer por random
+depth:19
+lb:16431
+ub:21314
+Hola 
+depth:20
+lb:16431
+ub:21314
+Hola 
+depth:21
+lb:16431
+ub:21314
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:17
+lb:16431
+ub:21823
+depth:17
+lb:16431
+ub:18983
+Hola 
+depth:18
+lb:16431
+ub:22335
+depth:18
+lb:16431
+ub:18983
+Hola 
+Se usa currentbuffer por random
+depth:19
+lb:16431
+ub:18983
+depth:19
+lb:16431
+ub:22103
+Hola 
+Se usa currentbuffer por random
+depth:20
+lb:16431
+ub:22103
+Hola 
+Se usa currentbuffer por random
+depth:21
+lb:16431
+ub:22103
+Hola 
+Se usa currentbuffer por random
+depth:22
+lb:16431
+ub:22103
+depth:22
+lb:16431
+ub:23194
+Hola 
+Se usa currentbuffer por random
+depth:23
+lb:16431
+ub:22103
+Hola 
+depth:24
+lb:16431
+ub:22103
+Hola 
+Se usa currentbuffer por random
+depth:25
+lb:16431
+ub:21827
+Hola 
+depth:26
+lb:16431
+ub:22103
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:20
+lb:16431
+ub:18983
+depth:20
+lb:16431
+ub:21434
+Hola 
+Hola 
+depth:21
+lb:14431.2
+ub:18983
+depth:21
+lb:16431
+ub:18983
+Hola 
+depth:22
+lb:14431.2
+ub:18983
+Hola 
+depth:23
+lb:14431.2
+ub:18983
+Hola 
+Se usa currentbuffer por random
+depth:24
+lb:14431.2
+ub:18983
+depth:24
+lb:14431.2
+ub:20305
+Hola 
+depth:25
+lb:14431.2
+ub:20410
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:25
+lb:14431.2
+ub:18983
+Hola 
+depth:26
+lb:14431.2
+ub:18983
+Hola 
+depth:27
+lb:14431.2
+ub:18983
+Hola 
+Hola 
+depth:19
+lb:16431
+ub:22335
+Hola 
+Hola 
+depth:16
+lb:16431
+ub:18951
+depth:16
+lb:16431
+ub:16431
+Hola 
+depth:17
+lb:16431
+ub:16431
+depth:17
+lb:16431
+ub:18030
+Hola 
+depth:18
+lb:16431
+ub:18030
+Hola 
+depth:19
+lb:16431
+ub:18030
+Hola 
+depth:20
+lb:16431
+ub:18030
+Hola 
+Se usa currentbuffer por random
+depth:21
+lb:16431
+ub:18030
+Hola 
+depth:22
+lb:16431
+ub:18030
+Hola 
+depth:23
+lb:16431
+ub:18030
+Hola 
+Se usa currentbuffer por random
+depth:24
+lb:16431
+ub:18030
+Hola 
+depth:25
+lb:16431
+ub:18030
+Hola 
+Se usa currentbuffer por random
+depth:26
+lb:16431
+ub:18030
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:18
+lb:16431
+ub:16431
+depth:18
+lb:16431
+ub:18567
+Hola 
+Se usa currentbuffer por random
+depth:19
+lb:16431
+ub:18567
+Hola 
+Se usa currentbuffer por random
+depth:20
+lb:16431
+ub:18567
+Hola 
+Se usa currentbuffer por random
+depth:21
+lb:16431
+ub:18567
+Hola 
+depth:22
+lb:14431.2
+ub:18567
+depth:22
+lb:16431
+ub:18567
+Hola 
+Hola 
+depth:19
+lb:16431
+ub:21608.6
+depth:19
+lb:16431
+ub:16431
+Hola 
+Se usa currentbuffer por random
+depth:20
+lb:16431
+ub:16431
+depth:20
+lb:16431
+ub:19551
+Hola 
+depth:21
+lb:16431
+ub:19551
+depth:21
+lb:16431
+ub:22476
+Hola 
+depth:22
+lb:16431
+ub:22476
+Hola 
+depth:23
+lb:16431
+ub:22476
+Hola 
+Se usa currentbuffer por random
+depth:24
+lb:16431
+ub:22476
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:22
+lb:14431.2
+ub:19551
+depth:22
+lb:16431
+ub:19551
+Hola 
+Se usa currentbuffer por random
+depth:23
+lb:14431.2
+ub:19551
+Hola 
+depth:24
+lb:14431.2
+ub:19551
+Hola 
+Se usa currentbuffer por random
+depth:25
+lb:14431.2
+ub:19551
+depth:25
+lb:14431.2
+ub:19539
+Hola 
+Se usa currentbuffer por random
+depth:26
+lb:14431.2
+ub:19539
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:26
+lb:14431.2
+ub:19551
+Hola 
+Se usa currentbuffer por random
+depth:27
+lb:14431.2
+ub:19551
+Hola 
+Hola 
+depth:21
+lb:14431.2
+ub:16431
+depth:21
+lb:16431
+ub:16431
+Hola 
+depth:22
+lb:14431.2
+ub:16431
+depth:22
+lb:14431.2
+ub:19356
+Hola 
+depth:23
+lb:14431.2
+ub:19356
+Hola 
+depth:24
+lb:14431.2
+ub:19356
+depth:24
+lb:14431.2
+ub:22292.3
+Hola 
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:23
+lb:14431.2
+ub:16431
+depth:23
+lb:14431.2
+ub:19692.3
+Hola 
+depth:24
+lb:14431.2
+ub:19692.3
+Hola 
+Se usa currentbuffer por random
+depth:25
+lb:14431.2
+ub:19629.3
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:24
+lb:14431.2
+ub:17012.5
+depth:24
+lb:14431.2
+ub:16251
+UB improved:16251
+Hola 
+Se usa currentbuffer por random
+depth:25
+lb:14431.2
+ub:17012.5
+Hola 
+Se usa currentbuffer por random
+depth:26
+lb:14431.2
+ub:17012.5
+Hola 
+depth:27
+lb:14431.2
+ub:17012.5
+depth:27
+lb:14431.2
+ub:19259.5
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:28
+lb:14431.2
+ub:17012.5
+Hola 
+Se usa currentbuffer por random
+depth:29
+lb:14431.2
+ub:17012.5
+Hola 
+depth:30
+lb:14431.2
+ub:17012.5
+Hola 
+Se usa currentbuffer por random
+depth:31
+lb:14431.2
+ub:17012.5
+Hola 
+Se usa currentbuffer por random
+depth:32
+lb:14431.2
+ub:17012.5
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:25
+lb:14431.2
+ub:16251
+Hola 
+Se usa currentbuffer por random
+depth:26
+lb:14431.2
+ub:16251
+Hola 
+depth:27
+lb:14431.2
+ub:16251
+Hola 
+Se usa currentbuffer por random
+depth:28
+lb:14431.2
+ub:16251
+Hola 
+depth:29
+lb:14431.2
+ub:16251
+Hola 
+Se usa currentbuffer por random
+depth:30
+lb:14431.2
+ub:16251
+Hola 
+Se usa currentbuffer por random
+depth:31
+lb:14431.2
+ub:16251
+Hola 
+depth:32
+lb:14431.2
+ub:16251
+Hola 
+Se usa currentbuffer por random
+depth:33
+lb:14431.2
+ub:16251
+Hola 
+Hola 
+depth:17
+lb:16251
+ub:18951
+depth:17
+lb:16251
+ub:22050
+Hola 
+Se usa currentbuffer por random
+depth:18
+lb:16251
+ub:22050
+Hola 
+depth:19
+lb:16251
+ub:22050
+Hola 
+depth:20
+lb:16251
+ub:22050
+Hola 
+Se usa currentbuffer por random
+depth:21
+lb:16251
+ub:22050
+Hola 
+Se usa currentbuffer por random
+depth:22
+lb:16251
+ub:22050
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:18
+lb:16251
+ub:23111
+depth:18
+lb:16251
+ub:18951
+Hola 
+depth:19
+lb:16251
+ub:18951
+depth:19
+lb:16251
+ub:23079
+Hola 
+depth:20
+lb:16251
+ub:23079
+Hola 
+Se usa currentbuffer por random
+depth:21
+lb:16251
+ub:23079
+Hola 
+Se usa currentbuffer por random
+depth:22
+lb:16251
+ub:23079
+Hola 
+Se usa currentbuffer por random
+depth:23
+lb:16251
+ub:23079
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:20
+lb:14341.2
+ub:18951
+depth:20
+lb:16251
+ub:18951
+Hola 
+depth:21
+lb:14341.2
+ub:18951
+Hola 
+depth:22
+lb:14341.2
+ub:18951
+Hola 
+Se usa currentbuffer por random
+depth:23
+lb:14341.2
+ub:18951
+Hola 
+Se usa currentbuffer por random
+depth:24
+lb:14341.2
+ub:18951
+Hola 
+Se usa currentbuffer por random
+depth:25
+lb:14341.2
+ub:18951
+Hola 
+depth:26
+lb:14341.2
+ub:20576
+Hola 
+depth:27
+lb:14341.2
+ub:20576
+Hola 
+depth:28
+lb:14341.2
+ub:20576
+Hola 
+depth:29
+lb:14341.2
+ub:20576
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:19
+lb:16251
+ub:23250
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:20
+lb:16251
+ub:21608.6
+Hola 
+Se usa currentbuffer por random
+depth:21
+lb:16251
+ub:21608.6
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:18
+lb:16251
+ub:21823
+depth:18
+lb:16251
+ub:24991
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:19
+lb:16251
+ub:21823
+Hola 
+Se usa currentbuffer por random
+depth:20
+lb:14341.2
+ub:21823
+depth:20
+lb:16251
+ub:21823
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+Hola 
+Hola 
+depth:21
+lb:16251
+ub:21823
+Hola 
+depth:22
+lb:16251
+ub:21823
+depth:22
+lb:16251
+ub:23891.8
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:23
+lb:16251
+ub:21823
+Hola 
+Se usa currentbuffer por random
+depth:24
+lb:16251
+ub:21823
+Hola 
+depth:25
+lb:16251
+ub:21823
+Hola 
+Hola 
+depth:21
+lb:16251
+ub:18951
+Hola 
+Se usa currentbuffer por random
+depth:22
+lb:16251
+ub:18951
+Hola 
+Se usa currentbuffer por random
+depth:23
+lb:16251
+ub:18951
+depth:23
+lb:16251
+ub:21186
+Hola 
+depth:24
+lb:16251
+ub:21186
+Hola 
+depth:25
+lb:16251
+ub:21186
+Hola 
+depth:26
+lb:16251
+ub:21186
+Hola 
+Hola 
+depth:24
+lb:16251
+ub:18951
+depth:24
+lb:16251
+ub:21019.8
+Hola 
+Se usa currentbuffer por random
+depth:25
+lb:16251
+ub:21019.8
+Hola 
+depth:26
+lb:16251
+ub:21019.8
+depth:26
+lb:16251
+ub:22644.8
+Hola 
+depth:27
+lb:16251
+ub:22644.8
+Hola 
+depth:28
+lb:16251
+ub:22644.8
+depth:28
+lb:16251
+ub:23720.8
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:27
+lb:16251
+ub:21019.8
+Hola 
+Hola 
+depth:25
+lb:16251
+ub:18951
+depth:25
+lb:16251
+ub:20576
+Hola 
+depth:26
+lb:16251
+ub:20576
+depth:26
+lb:16251
+ub:23224.3
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:27
+lb:16251
+ub:20576
+depth:27
+lb:16251
+ub:21155
+Hola 
+Se usa currentbuffer por random
+depth:28
+lb:16251
+ub:21155
+Hola 
+Se usa currentbuffer por random
+depth:29
+lb:16251
+ub:21155
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:28
+lb:16251
+ub:20576
+Hola 
+Se usa currentbuffer por random
+depth:29
+lb:16251
+ub:20576
+depth:29
+lb:16251
+ub:21652
+Hola 
+Se usa currentbuffer por random
+depth:30
+lb:16251
+ub:21652
+Hola 
+depth:31
+lb:16251
+ub:21652
+Hola 
+Hola 
+depth:30
+lb:16251
+ub:20576
+depth:30
+lb:16251
+ub:22344
+Hola 
+depth:31
+lb:16251
+ub:22344
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:31
+lb:16251
+ub:20576
+depth:31
+lb:16251
+ub:22176
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:32
+lb:16251
+ub:20000
+Hola 
+Se usa currentbuffer por random
+depth:33
+lb:16251
+ub:20000
+Hola 
+Se usa currentbuffer por random
+depth:34
+lb:16251
+ub:20000
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:26
+lb:16251
+ub:18951
+Hola 
+Se usa currentbuffer por random
+depth:27
+lb:16251
+ub:18951
+Hola 
+Se usa currentbuffer por random
+depth:28
+lb:16251
+ub:18951
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:23
+lb:16251
+ub:19551
+depth:23
+lb:16251
+ub:21972.3
+Hola 
+depth:24
+lb:16251
+ub:21972.3
+Hola 
+Se usa currentbuffer por random
+depth:25
+lb:16251
+ub:21972.3
+depth:25
+lb:16251
+ub:23130.3
+Hola 
+depth:26
+lb:16251
+ub:23130.3
+Hola 
+Se usa currentbuffer por random
+Hola 
+Hola 
+depth:20
+lb:16251
+ub:20388
+depth:20
+lb:16251
+ub:22113
+Hola 
+depth:21
+lb:16251
+ub:22113
+Hola 
+Se usa currentbuffer por random
+depth:22
+lb:16251
+ub:22113
+Hola 
+depth:23
+lb:16251
+ub:22113
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:21
+lb:16251
+ub:21204
+Hola 
+depth:22
+lb:16251
+ub:21204
+Hola 
+Se usa currentbuffer por random
+depth:23
+lb:16251
+ub:21204
+depth:23
+lb:16251
+ub:21891
+Hola 
+depth:24
+lb:16251
+ub:21891
+Hola 
+Se usa currentbuffer por random
+depth:25
+lb:16251
+ub:21891
+Hola 
+Se usa currentbuffer por random
+depth:26
+lb:16251
+ub:21891
+Hola 
+Hola 
+depth:24
+lb:16251
+ub:21204
+Hola 
+Se usa currentbuffer por random
+depth:25
+lb:16251
+ub:21204
+depth:25
+lb:16251
+ub:22801.1
+Hola 
+Se usa currentbuffer por random
+depth:26
+lb:16251
+ub:22801.1
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:26
+lb:16251
+ub:21204
+depth:26
+lb:16251
+ub:22768
+Hola 
+Se usa currentbuffer por random
+depth:27
+lb:16251
+ub:22768
+Hola 
+depth:28
+lb:16251
+ub:22768
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:27
+lb:16251
+ub:21204
+depth:27
+lb:16251
+ub:21999
+Hola 
+depth:28
+lb:16251
+ub:21999
+Hola 
+depth:29
+lb:16251
+ub:21999
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:28
+lb:16251
+ub:21060
+depth:28
+lb:16251
+ub:20098
+Hola 
+Se usa currentbuffer por random
+depth:29
+lb:16251
+ub:21060
+Hola 
+Se usa currentbuffer por random
+depth:30
+lb:16251
+ub:21060
+depth:30
+lb:16251
+ub:22784
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:31
+lb:16251
+ub:21060
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:23
+lb:16251
+ub:18567
+Hola 
+depth:24
+lb:16251
+ub:18567
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:22
+lb:16251
+ub:16431
+depth:22
+lb:16251
+ub:19356
+Hola 
+depth:23
+lb:16251
+ub:19356
+Hola 
+depth:24
+lb:16251
+ub:19356
+depth:24
+lb:16251
+ub:22292.3
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:25
+lb:16251
+ub:19548
+depth:25
+lb:16251
+ub:18396
+Hola 
+Se usa currentbuffer por random
+depth:26
+lb:16251
+ub:18396
+Hola 
+Se usa currentbuffer por random
+depth:27
+lb:16251
+ub:18396
+Hola 
+depth:28
+lb:16251
+ub:18396
+Hola 
+Hola 
+depth:26
+lb:16251
+ub:19548
+Hola 
+depth:27
+lb:16251
+ub:19548
+Hola 
+Se usa currentbuffer por random
+depth:28
+lb:16251
+ub:19548
+Hola 
+Se usa currentbuffer por random
+depth:29
+lb:16251
+ub:19548
+Hola 
+Se usa currentbuffer por random
+depth:30
+lb:16251
+ub:19548
+Hola 
+Se usa currentbuffer por random
+depth:31
+lb:16251
+ub:19548
+Hola 
+Se usa currentbuffer por random
+depth:32
+lb:16251
+ub:19548
+Hola 
+Se usa currentbuffer por random
+depth:33
+lb:16251
+ub:19548
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:24
+lb:16251
+ub:19551
+Hola 
+Se usa currentbuffer por random
+depth:25
+lb:16251
+ub:19551
+depth:25
+lb:16251
+ub:19539
+Hola 
+depth:26
+lb:16251
+ub:19539
+depth:26
+lb:16251
+ub:21494
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:27
+lb:16251
+ub:20799
+Hola 
+Se usa currentbuffer por random
+depth:28
+lb:16251
+ub:20799
+Hola 
+depth:29
+lb:16251
+ub:20799
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:23
+lb:16251
+ub:16431
+depth:23
+lb:16251
+ub:19692.3
+Hola 
+Se usa currentbuffer por random
+depth:24
+lb:16251
+ub:19692.3
+Hola 
+depth:25
+lb:16251
+ub:19629.3
+depth:25
+lb:16251
+ub:19417.3
+Hola 
+Se usa currentbuffer por random
+depth:26
+lb:16251
+ub:19417.3
+Hola 
+depth:27
+lb:16251
+ub:19417.3
+Hola 
+Se usa currentbuffer por random
+depth:28
+lb:16251
+ub:19417.3
+Hola 
+Se usa currentbuffer por random
+depth:29
+lb:16251
+ub:19417.3
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:26
+lb:16251
+ub:19629.3
+depth:26
+lb:16251
+ub:21052.5
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:27
+lb:16251
+ub:19629.3
+Hola 
+depth:28
+lb:16251
+ub:19629.3
+Hola 
+Se usa currentbuffer por random
+depth:29
+lb:16251
+ub:19629.3
+Hola 
+depth:30
+lb:16251
+ub:19629.3
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:26
+lb:16251
+ub:19551
+Hola 
+depth:27
+lb:16251
+ub:19551
+depth:27
+lb:16251
+ub:21032.5
+Hola 
+Hola 
+depth:28
+lb:16251
+ub:19359
+Hola 
+Se usa currentbuffer por random
+depth:29
+lb:16251
+ub:19359
+Hola 
+Se usa currentbuffer por random
+depth:30
+lb:16251
+ub:19359
+Hola 
+depth:31
+lb:16251
+ub:19359
+depth:31
+lb:16251
+ub:20587
+Hola 
+Hola 
+depth:32
+lb:16251
+ub:19359
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:20
+lb:16251
+ub:22166
+Hola 
+depth:21
+lb:16251
+ub:22166
+depth:21
+lb:16251
+ub:24441
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:22
+lb:16251
+ub:21908
+Hola 
+depth:23
+lb:16251
+ub:21908
+depth:23
+lb:16251
+ub:23516
+Hola 
+depth:24
+lb:16251
+ub:23516
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:24
+lb:16251
+ub:21908
+depth:24
+lb:16251
+ub:23915
+Hola 
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:21
+lb:16251
+ub:19707
+Hola 
+depth:22
+lb:16251
+ub:19707
+depth:22
+lb:16251
+ub:21594
+Hola 
+Se usa currentbuffer por random
+Hola 
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:22
+lb:16251
+ub:18983
+depth:22
+lb:16251
+ub:20868
+Hola 
+depth:23
+lb:16251
+ub:20868
+depth:23
+lb:16251
+ub:23884.3
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:24
+lb:16251
+ub:20868
+Hola 
+depth:25
+lb:16251
+ub:20868
+Hola 
+depth:26
+lb:16251
+ub:20868
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:23
+lb:16251
+ub:18983
+depth:23
+lb:16251
+ub:22324.3
+Hola 
+depth:24
+lb:16251
+ub:22324.3
+depth:24
+lb:16251
+ub:22022.5
+Hola 
+depth:25
+lb:16251
+ub:22022.5
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:25
+lb:16251
+ub:22324.3
+Hola 
+depth:26
+lb:16251
+ub:22324.3
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:24
+lb:16251
+ub:18983
+depth:24
+lb:16251
+ub:20305
+Hola 
+Se usa currentbuffer por random
+depth:25
+lb:16251
+ub:20305
+Hola 
+depth:26
+lb:16251
+ub:20305
+Hola 
+Se usa currentbuffer por random
+depth:27
+lb:16251
+ub:21405
+Hola 
+Hola 
+depth:25
+lb:16251
+ub:18983
+Hola 
+depth:26
+lb:16251
+ub:18983
+Hola 
+depth:27
+lb:16251
+ub:18983
+depth:27
+lb:16251
+ub:21976.5
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:28
+lb:16251
+ub:19487
+depth:28
+lb:16251
+ub:18531
+Hola 
+Se usa currentbuffer por random
+depth:29
+lb:16251
+ub:18531
+Hola 
+Se usa currentbuffer por random
+depth:30
+lb:16251
+ub:18531
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:29
+lb:16251
+ub:19487
+Hola 
+depth:30
+lb:16251
+ub:19487
+Hola 
+Se usa currentbuffer por random
+depth:31
+lb:16251
+ub:19487
+Hola 
+depth:32
+lb:16251
+ub:19487
+Hola 
+Se usa currentbuffer por random
+depth:33
+lb:16251
+ub:19487
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:21
+lb:16251
+ub:23508
+Hola 
+Se usa currentbuffer por random
+depth:22
+lb:16251
+ub:23508
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:24
+lb:16251
+ub:17012.5
+depth:24
+lb:16251
+ub:16251
+Hola 
+depth:25
+lb:16251
+ub:16251
+Hola 
+depth:26
+lb:16251
+ub:16251
+depth:26
+lb:16251
+ub:19283.9
+Hola 
+Se usa currentbuffer por random
+depth:27
+lb:16251
+ub:19283.9
+Hola 
+depth:28
+lb:16251
+ub:19283.9
+Hola 
+depth:29
+lb:16251
+ub:19283.9
+Hola 
+depth:30
+lb:16251
+ub:19283.9
+Hola 
+Hola 
+depth:27
+lb:16251
+ub:16251
+depth:27
+lb:16251
+ub:18247
+Hola 
+Se usa currentbuffer por random
+depth:28
+lb:16251
+ub:18247
+Hola 
+depth:29
+lb:16251
+ub:18247
+depth:29
+lb:16251
+ub:19323
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:30
+lb:16251
+ub:17539
+Hola 
+depth:31
+lb:16251
+ub:17539
+Hola 
+Se usa currentbuffer por random
+depth:32
+lb:16251
+ub:17539
+Hola 
+Se usa currentbuffer por random
+depth:33
+lb:16251
+ub:17539
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:23
+lb:16251
+ub:19479
+depth:23
+lb:16251
+ub:21846
+Hola 
+depth:24
+lb:16251
+ub:21846
+Hola 
+Hola 
+depth:24
+lb:16251
+ub:19479
+Hola 
+Se usa currentbuffer por random
+depth:25
+lb:16251
+ub:19479
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:28
+lb:16251
+ub:16251
+depth:28
+lb:16251
+ub:17871
+Hola 
+depth:29
+lb:16251
+ub:17871
+Hola 
+Se usa currentbuffer por random
+depth:30
+lb:16251
+ub:17871
+depth:30
+lb:16251
+ub:19191
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:31
+lb:16251
+ub:17871
+Hola 
+depth:32
+lb:16251
+ub:17295
+Hola 
+depth:33
+lb:16251
+ub:17295
+Hola 
+Se usa currentbuffer por random
+depth:34
+lb:16251
+ub:17295
+Hola 
+depth:35
+lb:16251
+ub:17295
+Hola 
+Se usa currentbuffer por random
+depth:36
+lb:16251
+ub:17295
+Hola 
+Se usa currentbuffer por random
+depth:37
+lb:16251
+ub:17295
+Hola 
+Se usa currentbuffer por random
+depth:38
+lb:16251
+ub:17295
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:25
+lb:16251
+ub:17012.5
+Hola 
+depth:26
+lb:16251
+ub:17012.5
+depth:26
+lb:16251
+ub:19178.5
+Hola 
+depth:27
+lb:16251
+ub:19178.5
+Hola 
+Se usa currentbuffer por random
+depth:28
+lb:16251
+ub:19178.5
+Hola 
+Se usa currentbuffer por random
+depth:29
+lb:16251
+ub:19178.5
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:27
+lb:16251
+ub:17012.5
+depth:27
+lb:16251
+ub:19259.5
+Hola 
+depth:28
+lb:16251
+ub:19259.5
+Hola 
+depth:29
+lb:16251
+ub:19259.5
+Hola 
+depth:30
+lb:16251
+ub:19259.5
+Hola 
+Se usa currentbuffer por random
+depth:31
+lb:16251
+ub:19259.5
+Hola 
+Se usa currentbuffer por random
+depth:32
+lb:16251
+ub:19259.5
+depth:32
+lb:16251
+ub:20902
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:33
+lb:16251
+ub:19259.5
+Hola 
+Se usa currentbuffer por random
+depth:34
+lb:16251
+ub:19259.5
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:29
+lb:16251
+ub:16251
+depth:29
+lb:16251
+ub:17327
+Hola 
+depth:30
+lb:16251
+ub:17327
+Hola 
+Se usa currentbuffer por random
+depth:31
+lb:16251
+ub:17327
+Hola 
+depth:32
+lb:16251
+ub:16751
+Hola 
+Se usa currentbuffer por random
+depth:33
+lb:16251
+ub:16751
+Hola 
+Se usa currentbuffer por random
+depth:34
+lb:16251
+ub:16751
+Hola 
+Se usa currentbuffer por random
+depth:35
+lb:16251
+ub:16751
+Hola 
+depth:36
+lb:16251
+ub:16751
+Hola 
+Se usa currentbuffer por random
+depth:37
+lb:16251
+ub:16751
+Hola 
+depth:38
+lb:16251
+ub:16751
+Hola 
+depth:39
+lb:16251
+ub:16751
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:30
+lb:16251
+ub:15639
+UB improved:15639
+Hola 
+Se usa currentbuffer por random
+depth:31
+lb:15639
+ub:15639
+Hola 
+depth:32
+lb:15639
+ub:15639
+Hola 
+depth:33
+lb:15639
+ub:15639
+Hola 
+Se usa currentbuffer por random
+depth:34
+lb:15639
+ub:15639
+Hola 
+depth:35
+lb:15639
+ub:15639
+UB improved:15639
+Hola 
+Se usa currentbuffer por random
+depth:36
+lb:15639
+ub:15639
+Hola 
+Se usa currentbuffer por random
+depth:37
+lb:15639
+ub:15639
+Hola 
+depth:38
+lb:15639
+ub:15639
+Hola 
+Se usa currentbuffer por random
+depth:39
+lb:15639
+ub:15639
+Hola 
+Se usa currentbuffer por random
+depth:40
+lb:15639
+ub:15639
+Hola 
+depth:41
+lb:15639
+ub:15639
+depth:41
+lb:15639
+ub:16511
+Hola 
+Se usa currentbuffer por random
+depth:42
+lb:15639
+ub:16511
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:42
+lb:15639
+ub:15639
+depth:42
+lb:15639
+ub:16220
+Hola 
+depth:43
+lb:15639
+ub:16220
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:43
+lb:15639
+ub:15639
+Hola 
+Se usa currentbuffer por random
+depth:44
+lb:15639
+ub:15639
+Hola 
+depth:45
+lb:15639
+ub:15639
+Hola 
+depth:46
+lb:15639
+ub:15639
+Hola 
+Se usa currentbuffer por random
+depth:47
+lb:15639
+ub:15639
+Hola 
+depth:48
+lb:15639
+ub:15639
+Hola 
+Se usa currentbuffer por random
+depth:49
+lb:15639
+ub:15639
+Hola 
+depth:50
+lb:15639
+ub:15639
+Hola 
+depth:51
+lb:15639
+ub:15639
+Hola 
+Se usa currentbuffer por random
+depth:52
+lb:15639
+ub:15639
+Hola 
+Se usa currentbuffer por random
+depth:53
+lb:15639
+ub:15639
+Hola 
+depth:54
+lb:15639
+ub:15639
+UB improved:15639
+Hola 
+Se usa currentbuffer por random
+depth:55
+lb:15639
+ub:15639
+Hola 
+depth:56
+lb:15639
+ub:15639
+Hola 
+depth:57
+lb:15639
+ub:15639
+UB improved:15639
+Hola 
+Se usa currentbuffer por random
+depth:58
+lb:15639
+ub:15639
+Hola 
+depth:59
+lb:15639
+ub:15639
+Hola 
+depth:60
+lb:15639
+ub:15639
+Hola 
+depth:61
+lb:15639
+ub:15639
+Hola 
+depth:62
+lb:15639
+ub:15639
+UB improved:15639
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:19
+lb:15639
+ub:24771.4
+depth:19
+lb:15639
+ub:26299.5
+Hola 
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:28
+lb:15639
+ub:17012.5
+Hola 
+depth:29
+lb:15639
+ub:17012.5
+depth:29
+lb:15639
+ub:19069.6
+Hola 
+Hola 
+depth:30
+lb:15639
+ub:17012.5
+depth:30
+lb:15639
+ub:18359.5
+Hola 
+Hola 
+Se usa currentbuffer por random
+depth:31
+lb:15639
+ub:17012.5
+depth:31
+lb:15639
+ub:18529.5
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:32
+lb:15639
+ub:17012.5
+Hola 
+depth:33
+lb:15639
+ub:17012.5
+Hola 
+Se usa currentbuffer por random
+depth:34
+lb:15639
+ub:17012.5
+Hola 
+depth:35
+lb:15639
+ub:17012.5
+depth:35
+lb:15639
+ub:18201.3
+Hola 
+Se usa currentbuffer por random
+depth:36
+lb:15639
+ub:18201.3
+Hola 
+depth:37
+lb:15639
+ub:18048.3
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+depth:36
+lb:15639
+ub:17012.5
+Hola 
+depth:37
+lb:15639
+ub:17012.5
+Hola 
+Se usa currentbuffer por random
+depth:38
+lb:15639
+ub:17012.5
+depth:38
+lb:15639
+ub:18307
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:39
+lb:15639
+ub:17012.5
+Hola 
+depth:40
+lb:15639
+ub:17012.5
+Hola 
+Se usa currentbuffer por random
+depth:41
+lb:15639
+ub:17012.5
+Hola 
+depth:42
+lb:15639
+ub:17012.5
+Hola 
+Se usa currentbuffer por random
+depth:43
+lb:15639
+ub:17012.5
+Hola 
+Se usa currentbuffer por random
+depth:44
+lb:15639
+ub:16859.5
+Hola 
+Se usa currentbuffer por random
+Hola 
+depth:22
+lb:15639
+ub:22579
+Hola 
+Se usa currentbuffer por random
+depth:23
+lb:15639
+ub:22579
+Hola 
+Se usa currentbuffer por random
+Hola 
+Se usa currentbuffer por random
+interval for the minimum: [15638.99841777617, 15638.99998167602]
+minimizer: (<5.999999999999985, 5.999999999999986> ; <1.999999991000013, 1.999999991000014> ; <0, 0> ; <0, 0> ; <0, 0> ; <2.999999982000002, 2.999999982000003> ; <0, 0> ; <21.00000000899999, 21.000000009> ; <20.000000009, 20.00000000900001> ; <0, 0> ; <0, 0> ; <0, 0> ; <0, 0> ; <24.00000000899999, 24.000000009> ; <0, 0> ; <0, 0> ; <2.999999982000012, 2.999999982000013> ; <0, 0> ; <13.00000000899999, 13.000000009> ; <0, 0> ; <0, 0> ; <12.000000009, 12.00000000900001> ; <0, 0> ; <0, 0>)
