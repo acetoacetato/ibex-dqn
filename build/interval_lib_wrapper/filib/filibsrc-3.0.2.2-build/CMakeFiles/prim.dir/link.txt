@@ -1,0 +1,2 @@
+/usr/bin/ar qc libprim.a  CMakeFiles/prim.dir/fp_traits/fp_traits_base_double_setup.cpp.o CMakeFiles/prim.dir/fp_traits/fp_traits_base_float_setup.cpp.o CMakeFiles/prim.dir/fp_traits/fp_traits_double_setup.cpp.o CMakeFiles/prim.dir/fp_traits/fp_traits_float_setup.cpp.o CMakeFiles/prim.dir/fp_traits/fp_traits_sse_const.cpp.o CMakeFiles/prim.dir/fp_traits/fp_traits_x87_const.cpp.o CMakeFiles/prim.dir/ieee/primitive.cpp.o CMakeFiles/prim.dir/interval/stdfun/filib_consts.cpp.o
+/usr/bin/ranlib libprim.a

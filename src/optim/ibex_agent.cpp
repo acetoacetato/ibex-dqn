@@ -11,6 +11,7 @@ namespace agent
 
     std::vector<int> acciones_tomadas;
     int n_iter = 0;
+    int n_iter_epsilon = 0;
     int depth = 0;
     int generated_nodes = 0;
     double time_taken = 0;
@@ -35,7 +36,7 @@ namespace agent
         return program;
     }
 
-    PyObject *inicializaAgente(PyObject *modulo)
+    PyObject *inicializaAgente(PyObject *modulo, char instancia[])
     {
 
         double sizeInput, sizeAction;
@@ -45,10 +46,11 @@ namespace agent
         PyObject *pDict = PyModule_GetDict(modulo);
         PyObject *pClase = PyDict_GetItemString(pDict, "Agent");
         PyObject *pConstruct = PyInstanceMethod_New(pClase);
-        PyObject *funcArgs = PyTuple_New(2);
+        PyObject *funcArgs = PyTuple_New(3);
 
         PyTuple_SetItem(funcArgs, 0, PyFloat_FromDouble(sizeInput));
         PyTuple_SetItem(funcArgs, 1, PyFloat_FromDouble(sizeAction));
+        PyTuple_SetItem(funcArgs, 2, PyUnicode_FromString(instancia));
 
         PyObject *pIns = PyObject_CallObject(pConstruct, funcArgs);
 

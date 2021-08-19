@@ -31,27 +31,30 @@ int main(int argc, char *argv[])
 	}
 
 	std::ofstream outfile;
+	std::ofstream acciones;
 
 	outfile.open("metrics-script-" + string(argv[2]) + ".csv", std::ios_base::app); // append instead of overwrite
-
 	std::string problem(argv[1]);
 
 	wchar_t *program = agent::inicializaPython("./foo");
 	PyObject *agentModule = agent::importaModulo("agent");
 
+	cout << "AAA" << endl;
 	if (agentModule == NULL)
 	{
 		cout << "Error: no se pudo importar el agente" << endl;
 	}
 
 	// Inicializa el agente
-	agent::agente = agent::inicializaAgente(agentModule);
+	agent::agente = agent::inicializaAgente(agentModule, argv[1]);
 
 	string dir(IBEX_OPTIM_BENCHS_DIR);
 	/* Build a constrained optimization problem from the file */
 	System sys((dir + problem).c_str());
 
 	/* Build a default optimizer with a precision set to 1e-07 for f(x) */
+	//TODO: CAMBIAR A 1e-06 verificar que relativa y absoluta son iguales
+	// Verificar cuánto demora para llegar a 1e-5
 	DefaultOptimizer o(sys, 1e-07);
 
 	o.optimize(sys.box); // Run the optimizer
@@ -68,7 +71,9 @@ int main(int argc, char *argv[])
 	outfile << ";" << agent::time_taken;
 	outfile << ";" << agent::generated_nodes;
 	outfile << ";" << agent::n_iter;
+	outfile << ";" << agent::n_iter_epsilon;
 	outfile << ";" << agent::acciones_tomadas[0];
 	outfile << ";" << agent::acciones_tomadas[1] << endl;
+
 	return 0;
 }

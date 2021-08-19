@@ -1,0 +1,10 @@
+prefix=/usr/local
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: ibex
+Description: A C++ library for interval-based algorithm design
+Url: http://www.ibex-lib.org/
+Version: 2.8.8
+Cflags: -I/usr/include/python3.6/ -I${includedir} -I${includedir}/ibex -I${includedir}/ibex/3rd -I${includedir}/ibex/3rd
+Libs: -L/usr/lib/python3.6/config-3.6m-x86_64-linux-gnu -L${libdir} -libex -lprim -L${libdir}/ibex/3rd -lsoplex -lpython3.6

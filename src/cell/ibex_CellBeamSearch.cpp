@@ -72,7 +72,7 @@ namespace ibex
 	// returns the cell to handled
 	Cell *CellBeamSearch::pop()
 	{
-		int accion = 0;
+		int accion = 1;
 
 		//accion = rand() % 2; // Generate a random number between 0 and 1
 
@@ -88,7 +88,11 @@ namespace ibex
 			accion = 1;
 		}
 
+		// Guardar cantidad de acciones por c/u
 		agent::acciones_tomadas[accion] = agent::acciones_tomadas[accion] + 1;
+
+		// Ver evolución de las acciones tomadas
+		//agent::acciones_tomadas.push_back(accion);
 
 		if (accion && !(currentbuffer.empty()))
 			return currentbuffer.pop();

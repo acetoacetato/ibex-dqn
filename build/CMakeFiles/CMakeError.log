@@ -1,0 +1,32 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_FROUNDING_MATH failed with the following output:
+Change Dir: /home/alen/ibex-lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f1422/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f1422.dir/build.make CMakeFiles/cmTC_f1422.dir/build
+make[1]: Entering directory '/home/alen/ibex-lib/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f1422.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORTS_FROUNDING_MATH   -frounding-math -o CMakeFiles/cmTC_f1422.dir/src.cxx.o -c /home/alen/ibex-lib/build/CMakeFiles/CMakeTmp/src.cxx
+clang: warning: optimization flag '-frounding-math' is not supported [-Wignored-optimization-argument]
+Linking CXX executable cmTC_f1422
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1422.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_SUPPORTS_FROUNDING_MATH    CMakeFiles/cmTC_f1422.dir/src.cxx.o  -o cmTC_f1422 
+make[1]: Leaving directory '/home/alen/ibex-lib/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_FFLOAT_STORE failed with the following output:
+Change Dir: /home/alen/ibex-lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5cfae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5cfae.dir/build.make CMakeFiles/cmTC_5cfae.dir/build
+make[1]: Entering directory '/home/alen/ibex-lib/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5cfae.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORTS_FFLOAT_STORE   -ffloat-store -o CMakeFiles/cmTC_5cfae.dir/src.cxx.o -c /home/alen/ibex-lib/build/CMakeFiles/CMakeTmp/src.cxx
+clang: warning: optimization flag '-ffloat-store' is not supported [-Wignored-optimization-argument]
+Linking CXX executable cmTC_5cfae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cfae.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_SUPPORTS_FFLOAT_STORE    CMakeFiles/cmTC_5cfae.dir/src.cxx.o  -o cmTC_5cfae 
+make[1]: Leaving directory '/home/alen/ibex-lib/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }

@@ -17,6 +17,8 @@ namespace agent
 
 	extern std::vector<int> acciones_tomadas;
 	extern int n_iter;
+	// Number of iterations until reached global optimum with epsilon error. (1e-5)
+	extern int n_iter_epsilon;
 	extern int depth;
 	extern int generated_nodes;
 	extern double time_taken;
@@ -24,7 +26,7 @@ namespace agent
 	// 1= usar agente, 0= no usar agente
 	extern int use_agent;
 
-	PyObject *inicializaAgente(PyObject *modulo);
+	PyObject *inicializaAgente(PyObject *modulo, char instancia[]);
 
 	PyObject *importaModulo(const string agent);
 	wchar_t *inicializaPython(char const *argv);

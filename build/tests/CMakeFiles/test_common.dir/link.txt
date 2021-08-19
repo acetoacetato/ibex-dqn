@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtest_common.a  CMakeFiles/test_common.dir/utest.cpp.o CMakeFiles/test_common.dir/utils.cpp.o CMakeFiles/test_common.dir/ExFunction.cpp.o CMakeFiles/test_common.dir/Instance.cpp.o CMakeFiles/test_common.dir/Ponts30.cpp.o
+/usr/bin/ranlib libtest_common.a

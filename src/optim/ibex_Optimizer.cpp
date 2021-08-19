@@ -646,6 +646,11 @@ namespace ibex
 				}
 				iter++;
 				agent::n_iter++;
+				// Si el error relativo es mayor a 1e-05, entonces se encontró un nuevo óptimo global
+				if (uplo - past_uplo >= 1e-05)
+				{
+					agent::n_iter_epsilon = agent::n_iter;
+				}
 			}
 
 			timer.stop();

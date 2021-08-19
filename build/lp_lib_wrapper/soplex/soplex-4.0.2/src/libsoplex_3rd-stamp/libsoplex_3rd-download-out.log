@@ -1,0 +1,8 @@
+-- extracting...
+     src='/home/alen/ibex-lib/lp_lib_wrapper/soplex/3rd/soplex-4.0.2.tar'
+     dst='/home/alen/ibex-lib/build/lp_lib_wrapper/soplex/soplex-4.0.2/src/libsoplex_3rd'
+-- extracting... [tar xf]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done

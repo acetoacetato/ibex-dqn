@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/alen/ibex-lib/build/lp_lib_wrapper/soplex/CMakeFiles/libsoplex_3rd"
+		},
+		{
+			"file" : "/home/alen/ibex-lib/build/lp_lib_wrapper/soplex/CMakeFiles/libsoplex_3rd.rule"
+		},
+		{
+			"file" : "/home/alen/ibex-lib/build/lp_lib_wrapper/soplex/CMakeFiles/libsoplex_3rd-complete.rule"
+		},
+		{
+			"file" : "/home/alen/ibex-lib/build/lp_lib_wrapper/soplex/soplex-4.0.2/src/libsoplex_3rd-stamp/libsoplex_3rd-install.rule"
+		},
+		{
+			"file" : "/home/alen/ibex-lib/build/lp_lib_wrapper/soplex/soplex-4.0.2/src/libsoplex_3rd-stamp/libsoplex_3rd-mkdir.rule"
+		},
+		{
+			"file" : "/home/alen/ibex-lib/build/lp_lib_wrapper/soplex/soplex-4.0.2/src/libsoplex_3rd-stamp/libsoplex_3rd-download.rule"
+		},
+		{
+			"file" : "/home/alen/ibex-lib/build/lp_lib_wrapper/soplex/soplex-4.0.2/src/libsoplex_3rd-stamp/libsoplex_3rd-update.rule"
+		},
+		{
+			"file" : "/home/alen/ibex-lib/build/lp_lib_wrapper/soplex/soplex-4.0.2/src/libsoplex_3rd-stamp/libsoplex_3rd-patch.rule"
+		},
+		{
+			"file" : "/home/alen/ibex-lib/build/lp_lib_wrapper/soplex/soplex-4.0.2/src/libsoplex_3rd-stamp/libsoplex_3rd-configure.rule"
+		},
+		{
+			"file" : "/home/alen/ibex-lib/build/lp_lib_wrapper/soplex/soplex-4.0.2/src/libsoplex_3rd-stamp/libsoplex_3rd-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libsoplex_3rd"
+		],
+		"name" : "libsoplex_3rd"
+	}
+}

@@ -1,0 +1,3 @@
+repository='external project URL'
+module='/home/alen/ibex-lib/lp_lib_wrapper/soplex/3rd/soplex-4.0.2.tar'
+tag=''
