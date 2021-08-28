@@ -33,6 +33,9 @@ namespace agent
         // Se agrega el directorio actual para poder importar cosas
         PyRun_SimpleString("import sys\n"
                            "sys.path.append('.')\n");
+	//PyObject *sys_path = PySys_GetObject("path");
+	//PyList_Append(sys_path, PyString_FromString("/home/alen/ibex-lib/examples"));
+
         return program;
     }
 

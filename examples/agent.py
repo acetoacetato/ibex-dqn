@@ -7,6 +7,12 @@ def prueba(x, y, z):
 
 import warnings
 
+import sys
+
+if not hasattr(sys, 'argv'):
+    sys.argv  = ['']
+
+
 warnings.simplefilter(action="ignore", category=FutureWarning)
 import tensorflow as tf
 import numpy as np
@@ -58,9 +64,9 @@ class Agent:
     def agent(self, state_shape, action_shape):
 
         model = keras.Sequential()
-        model.add(keras.layers.Dense(3, input_shape=(state_shape,), activation="relu"))
+        model.add(keras.layers.Dense(3, input_shape=(int(state_shape),), activation="relu"))
         # model.add(keras.layers.Dense(2, activation='relu'))
-        model.add(keras.layers.Dense(action_shape, activation="linear"))
+        model.add(keras.layers.Dense(int(action_shape), activation="linear"))
         model.compile(loss=tf.keras.losses.Huber(), optimizer="sgd")
         # model.compile(loss=tf.keras.losses.Huber(), optimizer=tf.keras.optimizers.Adam(lr=self.learning_rate), metrics=['accuracy'])
         return model

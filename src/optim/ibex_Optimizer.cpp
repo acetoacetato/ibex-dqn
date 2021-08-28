@@ -538,25 +538,28 @@ namespace ibex
 					forma_estado(past_cell, agent::past_state, loup_finder, loup_point, uplo, n);
 				}
 
+				 
 				if (trace >= 2)
 					cout << " current box " << c->box << endl;
 
 				try
 				{
 
+					cout << "El try" << endl;
 					//FIXME: Acá teóricamente se elimina la última caja, por lo que se debería obtener el future state
 					pair<Cell *, Cell *> new_cells = bsc.bisect(*c);
+					cout << "Hola?" << endl;
 					buffer.pop();
-
+					cout << "Hola2?" << endl;
 					agent::generated_nodes += 2;
 					// Se eliminará la celda anterior
 					////delete c; // deletes the cell.
+					cout << "Hola?" << endl;
 					delete past_cell;
 					past_cell = c;
 					///////////////////////
 
 					nb_cells += 2; // counting the cells handled ( in previous versions nb_cells was the number of cells put into the buffer after being handled)
-
 					handle_cell(*new_cells.first);
 					handle_cell(*new_cells.second);
 
@@ -614,6 +617,7 @@ namespace ibex
 
 				//FIXME: ESTADO FUTURO. Si es nulo es porque es un estado terminal.
 				Cell *future_cell = nullptr;
+				
 				agent::future_state.clear();
 				if (agent::use_agent && !buffer.empty())
 				{

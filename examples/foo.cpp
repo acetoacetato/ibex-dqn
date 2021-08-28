@@ -4,6 +4,8 @@
 #include <string.h>
 #include <fstream>
 #include <time.h>
+#include </usr/include/python3.6/Python.h>
+
 
 using namespace std;
 using namespace ibex;
@@ -37,11 +39,18 @@ int main(int argc, char *argv[])
 	std::string problem(argv[1]);
 
 	wchar_t *program = agent::inicializaPython("./foo");
+
+	if(program == NULL){
+
+		cout << "Error: no se pudo inicializar python" << endl;
+
+	}
 	PyObject *agentModule = agent::importaModulo("agent");
 
 	cout << "AAA" << endl;
 	if (agentModule == NULL)
 	{
+		PyErr_PrintEx(1);
 		cout << "Error: no se pudo importar el agente" << endl;
 	}
 

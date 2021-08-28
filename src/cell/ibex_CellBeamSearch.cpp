@@ -73,7 +73,7 @@ namespace ibex
 	Cell *CellBeamSearch::pop()
 	{
 		int accion = 1;
-
+		cout << "Aloh" << endl;
 		//accion = rand() % 2; // Generate a random number between 0 and 1
 
 		if (agent::use_agent && agent::past_state.size())
@@ -89,8 +89,8 @@ namespace ibex
 		}
 
 		// Guardar cantidad de acciones por c/u
-		agent::acciones_tomadas[accion] = agent::acciones_tomadas[accion] + 1;
-
+		//agent::acciones_tomadas[accion] = agent::acciones_tomadas[accion] + 1;
+		cout << "Aloh93" << endl;
 		// Ver evolución de las acciones tomadas
 		//agent::acciones_tomadas.push_back(accion);
 
@@ -103,7 +103,13 @@ namespace ibex
 			move_buffers();
 			return c;
 		}
+		cout << "Aloh106" << endl;
 		return CellHeap::pop();
+		
+		
+
+
+		
 	}
 
 	// emptying the futurebuffer : buffersize-1 cells are put into
